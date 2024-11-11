@@ -1,15 +1,73 @@
-Source: template-repository
-Section: unknown
+Source: kf6-kwidgetsaddons
+Section: libs
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Patrick Franz <deltaone@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               dh-sequence-kf6,
+               dh-sequence-pkgkde-symbolshelper,
+               doxygen,
+               extra-cmake-modules (>= 6.0.0~),
+               libxkbcommon-dev,
+               qt6-base-dev (>= 6.5.0+dfsg~),
+               qt6-tools-dev (>= 6.5.0~),
+Standards-Version: 4.7.0
+Homepage: https://invent.kde.org/frameworks/kwidgetsaddons
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kf6-kwidgetsaddons
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kf6-kwidgetsaddons.git
+Rules-Requires-Root: no
 
-Package: template-repository
+Package: libkf6widgetsaddons-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Description: add-on widgets and classes for applications that use the Qt Widgets module
+ Provided are action classes that can be added to toolbars or menus,
+ a wide range of widgets for selecting characters, fonts, colors,
+ actions, dates and times, or MIME types, as well as platform-aware
+ dialogs for configuration pages, message boxes, and password requests.
+ .
+ This package contains the translations.
+
+Package: libkf6widgetsaddons-dev
+Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: libkf6widgetsaddons6 (= ${binary:Version}),
+         qt6-base-dev (>= 6.5.0+dfsg~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf6widgetsaddons-doc (= ${source:Version}),
+Description: development files for kwidgetsaddons
+ Provided are action classes that can be added to toolbars or menus,
+ a wide range of widgets for selecting characters, fonts, colors,
+ actions, dates and times, or MIME types, as well as platform-aware
+ dialogs for configuration pages, message boxes, and password requests.
+ .
+ Contains development files for kwidgetsaddons.
+
+Package: libkf6widgetsaddons-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Description: documentation for kwidgetsaddons
+ Provided are action classes that can be added to toolbars or menus,
+ a wide range of widgets for selecting characters, fonts, colors,
+ actions, dates and times, or MIME types, as well as platform-aware
+ dialogs for configuration pages, message boxes, and password requests.
+ .
+ This package contains the qch documentation files.
+Section: doc
+
+Package: libkf6widgetsaddons6
+Architecture: any
+Multi-Arch: same
+Depends: libkf6widgetsaddons-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: add-on widgets and classes for applications that use the Qt Widgets module
+ Provided are action classes that can be added to toolbars or menus,
+ a wide range of widgets for selecting characters, fonts, colors,
+ actions, dates and times, or MIME types, as well as platform-aware
+ dialogs for configuration pages, message boxes, and password requests.
