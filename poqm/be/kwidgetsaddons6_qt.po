@@ -9,10 +9,10 @@
 # kom <me@komzpa.net>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
+"Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2023-01-05 14:35\n"
+"PO-Revision-Date: 2024-06-11 08:11\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -24,11 +24,12 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Qt-Contexts: true\n"
-"X-Crowdin-Project: 86ff119b1606fcaa910d6b44fc14b611\n"
-"X-Crowdin-Project-ID: 127\n"
+"X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
+"X-Crowdin-Project-ID: 136\n"
 "X-Crowdin-Language: be\n"
-"X-Crowdin-File: /main/be/kwidgetsaddons/kwidgetsaddons5_qt.po\n"
-"X-Crowdin-File-ID: 8351\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/kwidgetsaddons/"
+"kwidgetsaddons6_qt.po\n"
+"X-Crowdin-File-ID: 10414\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #: fonthelpers_p.h:22
@@ -1067,8 +1068,8 @@ msgstr "Камп'ютарныя сімвалы"
 
 #: kcharselect.cpp:391
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
-msgstr "Увядзіце тэрмін або сімвал для пошуку..."
+msgid "Enter a search term or character…"
+msgstr "Увядзіце тэрмін або знак для пошуку…"
 
 #: kcharselect.cpp:393
 msgctxt "KCharSelect|@info:tooltip"
@@ -1077,8 +1078,8 @@ msgstr "Увядзіце сюды тэрмін або сімвал для пош
 
 #: kcharselect.cpp:400
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Пошук..."
+msgid "&Find…"
+msgstr "&Пошук…"
 
 #: kcharselect.cpp:424
 msgctxt "KCharSelect|@action:button Goes to previous character"
@@ -1462,8 +1463,13 @@ msgstr "Невядома"
 
 #: kcolorcombo.cpp:333
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Адвольны..."
+msgid "Custom…"
+msgstr "Адвольна…"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "Кантэкстная даведка"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1623,42 +1629,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Перамясціць ні&жэй"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Запытаны шрыфт"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Звычайны"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Курсіў"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Нахілены"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Тоўсты"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Тоўсты з паменшаным нахілам"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Спрытная карычневая ліса скача праз сабаку"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1669,47 +1675,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Абраць шрыфт"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Шрыфт"
-
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Шрыфт:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Стыль шрыфту"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Стыль шрыфту:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Памер"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Памер:"
-
-#: kfontchooserwidget.ui:91
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Адносны"
-
-#: kfontchooserwidget.ui:117
-msgctxt "KFontChooserWidget|"
-msgid "Sample:"
+msgid "Comma separated list of font features (e.g., liga, calt):"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:31
+msgctxt "KFontChooserWidget|"
+msgid "Sample:"
+msgstr "Узор:"
+
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -1718,15 +1694,50 @@ msgstr ""
 "Гэты ўзор тэксту ілюструе бягучыя налады. Вы можаце адрэдагаваць яго, каб "
 "праверыць адмысловыя сімвалы."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "Паказваць толькі монашырынныя шрыфты"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Шрыфт"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Шрыфт:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Стыль шрыфту"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Стыль шрыфту:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Памер"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Памер:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Адносны"
+
 #: kfontrequester.cpp:184
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
-msgstr "Абраць шрыфт..."
+msgid "Choose font…"
+msgstr "Абраць шрыфт…"
 
 #: kfontrequester.cpp:190
 msgctxt "KFontRequester|@info:tooltip"
@@ -1829,20 +1840,20 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Памылка"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "За&крыць"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Закрыць паведамленне"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
-msgstr "Пошук па тыпу файла або шаблоне назвы файла..."
+msgid "Search for file type or filename pattern…"
+msgstr "Пошук па тыпу файла або шаблоне назвы файла…"
 
 #: kmimetypechooser.cpp:89
 msgctxt "KMimeTypeChooser|@label:textbox"
@@ -1866,8 +1877,8 @@ msgstr "Шаблоны"
 
 #: kmimetypechooser.cpp:126
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&Рэдагаванне..."
+msgid "&Edit…"
+msgstr "&Рэдагаванне…"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -1875,25 +1886,17 @@ msgid "Launch the MIME type editor"
 msgstr "Запусціць рэдактар тыпаў MIME"
 
 #: kmimetypeeditor.cpp:27
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Could not find the \"keditfiletype5\" executable in PATH."
 msgctxt "QObject|"
 msgid "Could not find the \"keditfiletype\" executable in PATH."
-msgstr "Не ўдалося знайсці выканальны файл \"keditfiletype5\" па шляху PATH."
+msgstr "Не ўдалося знайсці выканальны файл \"keditfiletype\" па шляху PATH."
 
 #: kmimetypeeditor.cpp:37
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid ""
-#| "Could not start the \"keditfiletype5\" executable, please check your "
-#| "installation."
 msgctxt "QObject|"
 msgid ""
 "Could not start the \"keditfiletype\" executable, please check your "
 "installation."
 msgstr ""
-"Не ўдалося запусціць выканальны файл \"keditfiletype5\", праверце "
+"Не ўдалося запусціць выканальны файл \"keditfiletype\", праверце "
 "правільнасць усталявання."
 
 #: knewpassworddialog.cpp:63
@@ -1974,12 +1977,10 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Правяранне &надзейнасці пароля:"
 
-#: kpageview.cpp:449
-#, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Пошук"
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Пошук…"
 
 #: kpassworddialog.cpp:52
 msgctxt "KPasswordDialog|@title:window"
@@ -2037,20 +2038,14 @@ msgid "Change the visibility of the password"
 msgstr "Змяніць бачнасць пароля"
 
 #: kpasswordlineedit.cpp:87
-#, fuzzy
-#| msgctxt "KPasswordDialog|@title:window"
-#| msgid "Password"
 msgctxt "QObject|@action:inmenu"
 msgid "Show Password"
-msgstr "Пароль"
+msgstr "Паказаць пароль"
 
 #: kpasswordlineedit.cpp:88
-#, fuzzy
-#| msgctxt "KPasswordDialog|@title:window"
-#| msgid "Password"
 msgctxt "QObject|@action:inmenu"
 msgid "Hide Password"
-msgstr "Пароль"
+msgstr "Схаваць пароль"
 
 #: kpixmapregionselectordialog.cpp:56
 msgctxt "KPixmapRegionSelectorDialog|@title:window"
@@ -2147,8 +2142,8 @@ msgstr "Не захоўваць даныя"
 
 #: kstandardguiitem.cpp:184
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Захаваць &як..."
+msgid "Save &As…"
+msgstr "Захаваць &як…"
 
 #: kstandardguiitem.cpp:186
 msgctxt "KStandardGuiItem|"
@@ -2178,8 +2173,8 @@ msgstr ""
 
 #: kstandardguiitem.cpp:203
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
-msgstr "Рэжым &адміністратара..."
+msgid "Administrator &Mode…"
+msgstr "Рэжым &адміністратара…"
 
 #: kstandardguiitem.cpp:205
 msgctxt "KStandardGuiItem|"
@@ -2284,8 +2279,8 @@ msgstr "На адзін крок наперад"
 
 #: kstandardguiitem.cpp:276
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Друкаваць..."
+msgid "&Print…"
+msgstr "&Друкаванне…"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -2314,8 +2309,8 @@ msgstr "Выдаліць элемент(ы)"
 
 #: kstandardguiitem.cpp:299
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Адкрыць..."
+msgid "&Open…"
+msgstr "&Адкрыць…"
 
 #: kstandardguiitem.cpp:301
 msgctxt "KStandardGuiItem|"
@@ -2349,8 +2344,8 @@ msgstr "Уставіць"
 
 #: kstandardguiitem.cpp:325
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "&Наладжванне..."
+msgid "Confi&gure…"
+msgstr "&Наладжванне…"
 
 #: kstandardguiitem.cpp:330
 msgctxt "KStandardGuiItem|"
@@ -2418,6 +2413,40 @@ msgstr "На ўвесь экран"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Паказаць акно на ўвесь экран"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Пошук..."
+
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Адвольны..."
+
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&Рэдагаванне..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Пошук"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Захаваць &як..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Друкаваць..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Адкрыць..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "&Наладжванне..."
 
 #~ msgctxt "KFontChooserWidget|"
 #~ msgid "KFontChooserWidget"
@@ -3488,10 +3517,6 @@ msgstr "Паказаць акно на ўвесь экран"
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU General Public License Version 2"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Асаблівая"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -5494,9 +5519,6 @@ msgstr "Паказаць акно на ўвесь экран"
 #~ "Закрыць і адхіліць\n"
 #~ "гэтае паведамленне?"
 
-#~ msgid "Configure"
-#~ msgstr "Настаўленне"
-
 #~ msgid "Job"
 #~ msgstr "Заданне"
 
@@ -5802,9 +5824,6 @@ msgstr "Паказаць акно на ўвесь экран"
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Наставіць скароты"
-
-#~ msgid "Print"
-#~ msgstr "Друкаваць"
 
 #, fuzzy
 #~ msgid "Reset to Defaults"
@@ -7259,9 +7278,6 @@ msgstr "Паказаць акно на ўвесь экран"
 #~ msgid "&Game"
 #~ msgstr "&Гульня"
 
-#~ msgid "&Edit"
-#~ msgstr "&Змяніць"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&Ход"
@@ -7881,9 +7897,6 @@ msgstr "Паказаць акно на ўвесь экран"
 
 #~ msgid " - BCC: "
 #~ msgstr " - Таемная копія: "
-
-#~ msgid "Save As"
-#~ msgstr "Запісаць як"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -8857,9 +8870,6 @@ msgstr "Паказаць акно на ўвесь экран"
 #~ msgid "Order by:"
 #~ msgstr "Упарадкаваць па:"
 
-#~ msgid "Search:"
-#~ msgstr "Шукаць:"
-
 #, fuzzy
 #~ msgid "Details for %1"
 #~ msgstr "Спіс прапановаў"
@@ -9087,11 +9097,6 @@ msgstr "Паказаць акно на ўвесь экран"
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Адкрыць у..."
-
-#, fuzzy
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Адкрыць"
 
 #, fuzzy
 #~ msgctxt "@label File name"

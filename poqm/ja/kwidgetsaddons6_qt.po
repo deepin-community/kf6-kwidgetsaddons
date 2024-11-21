@@ -1102,7 +1102,7 @@ msgstr ""
 #| msgctxt "KCharSelect|"
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "ここに検索語または文字を入力します"
 
 #: kcharselect.cpp:393
@@ -1115,11 +1115,11 @@ msgstr "ここに検索語または文字を入力します"
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgctxt "KCharSelect|"
-#| msgid "&Find..."
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "検索(&F)..."
+msgid "&Find…"
+msgstr "検索(&F)"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1537,8 +1537,13 @@ msgstr "未知"
 #| msgctxt "KColorCombo|Custom color"
 #| msgid "Custom..."
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
+msgid "Custom…"
 msgstr "カスタム..."
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1770,7 +1775,7 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "下へ移動(&D)"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid "Requested Font"
@@ -1778,7 +1783,7 @@ msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "使用するフォント"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "KFontChooser|QFontDatabase"
 #| msgid "Normal"
@@ -1786,32 +1791,32 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "普通"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "イタリック"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "オブリック"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "ボールド"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "漢字 ひらがな カタカナ Alphabet 123"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1825,68 +1830,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "月を選択"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "フォント"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgctxt "KFontChooser|@label"
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "フォント:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "フォントスタイル"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgctxt "KFontChooser|"
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "フォントスタイル:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "サイズ"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgctxt "KFontChooser|@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "サイズ:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "KFontChooser|@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "相対的"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid ""
@@ -1900,17 +1854,73 @@ msgstr ""
 "このサンプルテキストは現在の設定を示しています。テキストを編集して他の文字で"
 "テストすることもできます。"
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "フォント"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgctxt "KFontChooser|@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "フォント:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "フォントスタイル"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgctxt "KFontChooser|"
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "フォントスタイル:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "サイズ"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgctxt "KFontChooser|@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "サイズ:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "KFontChooser|@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "相対的"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgctxt "KFontRequester|"
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "選択..."
 
 #: kfontrequester.cpp:190
@@ -2043,7 +2053,7 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "エラー"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "&Close"
@@ -2051,7 +2061,7 @@ msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "閉じる(&C)"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2060,7 +2070,7 @@ msgstr "メッセージを閉じる"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2097,7 +2107,7 @@ msgstr "パターン"
 #| msgctxt "KMimeTypeChooser|"
 #| msgid "&Edit..."
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
+msgid "&Edit…"
 msgstr "編集(&E)..."
 
 #: kmimetypechooser.cpp:141
@@ -2215,9 +2225,9 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "パスワード強度計:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
 msgstr ""
 
 #: kpassworddialog.cpp:52
@@ -2431,8 +2441,11 @@ msgid "Do not save data"
 msgstr "データを保存しません"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Save &As..."
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
+msgid "Save &As…"
 msgstr "名前を付けて保存(&A)..."
 
 #: kstandardguiitem.cpp:186
@@ -2462,8 +2475,11 @@ msgstr ""
 "他の設定も試すときは、これを利用してください。"
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "管理者モード(&M)..."
 
 #: kstandardguiitem.cpp:205
@@ -2567,8 +2583,11 @@ msgid "Go forward one step"
 msgstr "1 ステップ進みます"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Print..."
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
+msgid "&Print…"
 msgstr "印刷(&P)..."
 
 #: kstandardguiitem.cpp:278
@@ -2597,8 +2616,11 @@ msgid "Delete item(s)"
 msgstr "アイテムを削除します"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
+msgid "&Open…"
 msgstr "開く(&O)..."
 
 #: kstandardguiitem.cpp:301
@@ -2632,8 +2654,11 @@ msgid "&Insert"
 msgstr "挿入(&I)"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Confi&gure..."
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
+msgid "Confi&gure…"
 msgstr "設定(&G)..."
 
 #: kstandardguiitem.cpp:330
@@ -2702,3 +2727,10 @@ msgstr "フルスクリーン"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "ウインドウをフルスクリーンで表示します"
+
+#, fuzzy
+#~| msgctxt "KCharSelect|"
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "検索(&F)..."

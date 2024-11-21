@@ -43,6 +43,7 @@ public:
     KMessageWidget::Position position = KMessageWidget::Inline;
     bool wordWrap;
     QList<QToolButton *> buttons;
+    bool ignorePaletteChange = false;
 
     void createLayout();
     void setPalette();
@@ -117,7 +118,7 @@ void KMessageWidgetPrivate::createLayout()
     if (wordWrap) {
         QGridLayout *layout = new QGridLayout(q);
         // Set alignment to make sure icon does not move down if text wraps
-        layout->addWidget(iconLabel, 0, 0, 1, 1, Qt::AlignHCenter | Qt::AlignTop);
+        layout->addWidget(iconLabel, 0, 0, 1, 1, Qt::AlignCenter);
         layout->addWidget(textLabel, 0, 1);
 
         if (buttons.isEmpty()) {
@@ -139,7 +140,7 @@ void KMessageWidgetPrivate::createLayout()
         }
     } else {
         QHBoxLayout *layout = new QHBoxLayout(q);
-        layout->addWidget(iconLabel, 0, Qt::AlignTop);
+        layout->addWidget(iconLabel, 0, Qt::AlignVCenter);
         layout->addWidget(textLabel);
 
         for (QToolButton *button : std::as_const(buttons)) {
@@ -180,12 +181,14 @@ void KMessageWidgetPrivate::setPalette()
     palette.setColor(QPalette::Window, bgBaseColor);
     const QColor parentTextColor = (q->parentWidget() ? q->parentWidget()->palette() : qApp->palette()).color(QPalette::WindowText);
     palette.setColor(QPalette::WindowText, parentTextColor);
-    q->setPalette(palette);
     // Explicitly set the palettes of the labels because some apps use stylesheets which break the
     // palette propagation
+    ignorePaletteChange = true;
+    q->setPalette(palette);
+    ignorePaletteChange = false;
     iconLabel->setPalette(palette);
     textLabel->setPalette(palette);
-    q->style()->polish(q);
+
     // update the Icon in case it is recolorable
     q->setIcon(icon);
     q->update();
@@ -311,8 +314,10 @@ bool KMessageWidget::event(QEvent *event)
 
     } else if (event->type() == QEvent::ParentChange) {
         d->setPalette();
-    } else if (event->type() == QEvent::ApplicationPaletteChange) {
-        d->setPalette();
+    } else if (event->type() == QEvent::PaletteChange) {
+        if (!d->ignorePaletteChange) {
+            d->setPalette();
+        }
     }
     return QFrame::event(event);
 }

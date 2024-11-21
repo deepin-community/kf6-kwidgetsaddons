@@ -1462,7 +1462,7 @@ msgstr ""
 #: kcharselect.cpp:391
 #, fuzzy
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Sicht am Internet"
 
 #: kcharselect.cpp:393
@@ -1472,10 +1472,10 @@ msgstr ""
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Sichen..."
+msgid "&Find…"
+msgstr "&Sichen"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1953,10 +1953,14 @@ msgstr "Onbekannt"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgid "Custom..."
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Benotzerdefinéiert..."
+msgid "Custom…"
+msgstr "&Benotzerdéfinéiert"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -2163,14 +2167,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Erofréckelen"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Gewënscht Schrëft"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2178,14 +2182,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normal"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgid "Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Kursiv"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -2193,14 +2197,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Schif"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgid "Bold"
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Fett"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Book Oblique"
@@ -2208,7 +2212,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Normal schif"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
@@ -2216,7 +2220,7 @@ msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 "Ëch hätt gär dräi Wirschtercher mat Fritten a Ketchup, ouni Zalot a Geméis"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgid "%1%"
 msgctxt "KFontChooser|@item Font style"
@@ -2230,63 +2234,19 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Schrëft auswielen"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Schrëft"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Schrëft:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Schrëftstil"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Schrëftstil:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Gréisst"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Gréisst:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Relativ"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 #, fuzzy
 #| msgid "Simple"
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "Einfach"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
@@ -2299,16 +2259,65 @@ msgstr ""
 "Dëse Beispilltext illustréiert déi momentan Astellungen. Dir kënnt e "
 "veränneren fir d'Duerstellung vu speziellen Zeechen ze kucken."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Schrëft"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Schrëft:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Schrëftstil"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Schrëftstil:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Gréisst"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Gréisst:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Relativ"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Auswielen..."
 
 #: kfontrequester.cpp:190
@@ -2446,14 +2455,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Feeler"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Zoumaachen"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2462,7 +2471,7 @@ msgstr "Noricht zoumaachen"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2495,10 +2504,10 @@ msgstr "Braille"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "V&eränneren..."
+msgid "&Edit…"
+msgstr "V&eränneren"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2630,11 +2639,11 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Passwuert-Sëcherheetsmeter:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Sichen"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Siche&n:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -2838,10 +2847,10 @@ msgstr "Daten net späicheren"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Späicheren &Als..."
+msgid "Save &As…"
+msgstr "Späicheren als"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -2880,7 +2889,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "Systemverwaltungsm&odus..."
 
 #: kstandardguiitem.cpp:205
@@ -3020,10 +3029,10 @@ msgstr "Ee Schrack no vir goen"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Drécken..."
+msgid "&Print…"
+msgstr "Drécken"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -3062,10 +3071,9 @@ msgstr "Element(er) läschen"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Opmaachen..."
+msgid "&Open…"
+msgstr "&Opmaachen"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -3111,10 +3119,10 @@ msgstr "&Asetzen"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "Confi&guréieren..."
+msgid "Confi&gure…"
+msgstr "Configuréieren"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -3200,6 +3208,53 @@ msgstr "Vollbildmodus"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Sichen..."
+
+#, fuzzy
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Benotzerdefinéiert..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "V&eränneren..."
+
+#, fuzzy
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Sichen"
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Späicheren &Als..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Drécken..."
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Opmaachen..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "Confi&guréieren..."
 
 #, fuzzy
 #~| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
@@ -4256,11 +4311,6 @@ msgstr ""
 #~ msgctxt "@item license (short name)"
 #~ msgid "LGPL v3"
 #~ msgstr "LGPL"
-
-#, fuzzy
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "&Benotzerdéfinéiert"
 
 #, fuzzy
 #~ msgctxt "@item license"
@@ -6235,9 +6285,6 @@ msgstr ""
 #~ "verännert Noricht\n"
 #~ "si loossen?"
 
-#~ msgid "Configure"
-#~ msgstr "Configuréieren"
-
 #, fuzzy
 #~ msgid "Job"
 #~ msgstr "Jom"
@@ -6553,9 +6600,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Tastekierzel configuréieren"
-
-#~ msgid "Print"
-#~ msgstr "Drécken"
 
 #, fuzzy
 #~ msgid "Reset to Defaults"
@@ -8106,9 +8150,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "S&pill"
 
-#~ msgid "&Edit"
-#~ msgstr "V&eränneren"
-
 #, fuzzy
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
@@ -8795,9 +8836,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC: "
-
-#~ msgid "Save As"
-#~ msgstr "Späicheren als"
 
 #, fuzzy
 #~ msgid ""
@@ -9787,10 +9825,6 @@ msgstr ""
 #~ msgstr "Installéieren"
 
 #, fuzzy
-#~ msgid "Search:"
-#~ msgstr "Siche&n:"
-
-#, fuzzy
 #~ msgid "Become a Fan"
 #~ msgstr "Fax Doheem"
 
@@ -10017,11 +10051,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Opmaache mat..."
-
-#, fuzzy
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Opmaachen"
 
 #, fuzzy
 #~ msgctxt "@label File name"

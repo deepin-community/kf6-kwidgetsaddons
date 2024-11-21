@@ -1,0 +1,227 @@
+From 6d8a94a2530fff284cdbee2abb79e1831b18d695 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Aur=C3=A9lien=20COUDERC?= <coucouf@coucouf.fr>
+Date: Fri, 20 Sep 2024 23:15:08 +0200
+Subject: [PATCH] Revert "FontChoose: Allow setting font features when
+ selecting font"
+
+This reverts commit 810903365c3dd25d1e6b859a9b853df298ed23a5.
+---
+ src/kfontchooser.cpp      | 69 -------------------------------------
+ src/kfontchooserwidget.ui | 72 +++++++++++++++++----------------------
+ 2 files changed, 31 insertions(+), 110 deletions(-)
+
+diff --git a/src/kfontchooser.cpp b/src/kfontchooser.cpp
+index 7ff8a58c..7108f1b8 100644
+--- a/src/kfontchooser.cpp
++++ b/src/kfontchooser.cpp
+@@ -24,7 +24,6 @@
+ #include <QScrollBar>
+ #include <QSplitter>
+ #include <QTextEdit>
+-#include <QTimer>
+ 
+ #include <algorithm>
+ #include <cmath>
+@@ -101,7 +100,6 @@ public:
+     void slotStyleSelected(const QString &);
+     void displaySample(const QFont &font);
+     void slotSizeValue(double);
+-    void slotFeaturesChanged(const QString &features);
+ 
+     KFontChooser *q;
+ 
+@@ -127,8 +125,6 @@ public:
+     std::map<QString, QString> m_qtStyles;
+     // Mapping of translated style strings to internal style identifiers.
+     std::map<QString, QString> m_styleIDs;
+-
+-    QTimer m_fontFeatureChangedTimer;
+ };
+ 
+ KFontChooser::KFontChooser(QWidget *parent)
+@@ -149,10 +145,6 @@ KFontChooser::~KFontChooser() = default;
+ 
+ void KFontChooserPrivate::init()
+ {
+-#if QT_VERSION < QT_VERSION_CHECK(6, 7, 0)
+-    m_ui->fontFeaturesLabel->setVisible(false);
+-    m_ui->fontFeaturesLineEdit->setVisible(false);
+-#endif
+     m_usingFixed = m_flags & KFontChooser::FixedFontsOnly;
+ 
+     // The main layout is divided horizontally into a top part with
+@@ -239,16 +231,6 @@ void KFontChooserPrivate::init()
+         slotSizeSelected(size);
+     });
+ 
+-    m_fontFeatureChangedTimer.setInterval(200);
+-    m_fontFeatureChangedTimer.setSingleShot(true);
+-    m_fontFeatureChangedTimer.callOnTimeout([this]() {
+-        slotFeaturesChanged(m_ui->fontFeaturesLineEdit->text());
+-    });
+-
+-    QObject::connect(m_ui->fontFeaturesLineEdit, &QLineEdit::textChanged, [this](const QString &) {
+-        m_fontFeatureChangedTimer.start();
+-    });
+-
+     if (isDiffMode) {
+         m_ui->sizeLabel->hide();
+         m_ui->sizeListWidget->setEnabled(false);
+@@ -619,41 +601,6 @@ void KFontChooserPrivate::slotSizeValue(double dval)
+     m_signalsAllowed = true;
+ }
+ 
+-void KFontChooserPrivate::slotFeaturesChanged(const QString &features)
+-{
+-#if QT_VERSION >= QT_VERSION_CHECK(6, 7, 0)
+-    m_selectedFont.clearFeatures();
+-
+-    if (features.isEmpty()) {
+-        return;
+-    }
+-
+-    const QStringList rawFeaturesList = features.split(QLatin1Char(','), Qt::SkipEmptyParts);
+-    for (const QString &feature : rawFeaturesList) {
+-        auto f = QStringView(feature).trimmed();
+-        if (f.isEmpty()) {
+-            continue;
+-        }
+-        QList<QStringView> parts = f.split(QStringLiteral("="), Qt::SkipEmptyParts);
+-        if (parts.length() == 2) {
+-            const auto tag = QFont::Tag::fromString(parts[0]);
+-            bool ok = false;
+-            const int number = parts[1].toInt(&ok);
+-            if (tag.has_value() && ok) {
+-                m_selectedFont.setFeature(tag.value(), number);
+-            }
+-        } else if (f.size() <= 4) {
+-            const auto tag = QFont::Tag::fromString(feature);
+-            if (tag.has_value()) {
+-                m_selectedFont.setFeature(tag.value(), 1);
+-            }
+-        }
+-    }
+-
+-    Q_EMIT q->fontSelected(m_selectedFont);
+-#endif
+-}
+-
+ void KFontChooserPrivate::displaySample(const QFont &font)
+ {
+     m_ui->sampleTextEdit->setFont(font);
+@@ -746,22 +693,6 @@ void KFontChooserPrivate::setupDisplay()
+         size = QFontInfo(m_selectedFont).pointSizeF();
+     }
+ 
+-    // Set font features
+-#if QT_VERSION >= QT_VERSION_CHECK(6, 7, 0)
+-    const auto tags = m_selectedFont.featureTags();
+-    QStringList features;
+-    for (const auto &tag : tags) {
+-        const QString name = QString::fromUtf8(tag.toString());
+-        const quint32 value = m_selectedFont.featureValue(tag);
+-        if (value == 1) {
+-            features.push_back(name);
+-        } else {
+-            features.push_back(QStringLiteral("%1=%2").arg(name, QString::number(value)));
+-        }
+-    }
+-    m_ui->fontFeaturesLineEdit->setText(features.join(QStringLiteral(",")));
+-#endif
+-
+     int numEntries;
+     int i;
+ 
+diff --git a/src/kfontchooserwidget.ui b/src/kfontchooserwidget.ui
+index 554e4675..2a42b37a 100644
+--- a/src/kfontchooserwidget.ui
++++ b/src/kfontchooserwidget.ui
+@@ -13,47 +13,6 @@
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="1,0,0">
+-     <item row="2" column="0">
+-      <layout class="QVBoxLayout" name="sampleTextEditLayout">
+-       <item>
+-        <widget class="QLabel" name="fontFeaturesLabel">
+-         <property name="text">
+-          <string>Comma separated list of font features (e.g., liga, calt):</string>
+-         </property>
+-        </widget>
+-       </item>
+-       <item>
+-        <widget class="QLineEdit" name="fontFeaturesLineEdit"/>
+-       </item>
+-       <item>
+-        <widget class="QLabel" name="previewLabel">
+-         <property name="text">
+-          <string>Sample:</string>
+-         </property>
+-         <property name="buddy">
+-          <cstring>sampleTextEdit</cstring>
+-         </property>
+-        </widget>
+-       </item>
+-       <item>
+-        <widget class="QTextEdit" name="sampleTextEdit">
+-         <property name="whatsThis">
+-          <string>This sample text illustrates the current settings. You may edit it to test special characters.</string>
+-         </property>
+-         <property name="acceptRichText">
+-          <bool>false</bool>
+-         </property>
+-        </widget>
+-       </item>
+-       <item>
+-        <widget class="QCheckBox" name="onlyFixedCheckBox">
+-         <property name="text">
+-          <string>Show only monospaced fonts</string>
+-         </property>
+-        </widget>
+-       </item>
+-      </layout>
+-     </item>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="mainHorizontalLayout" stretch="1,1,0">
+        <item>
+@@ -150,6 +109,37 @@
+        </item>
+       </layout>
+      </item>
++     <item row="1" column="0">
++      <layout class="QVBoxLayout" name="sampleTextEditLayout">
++       <item>
++        <widget class="QLabel" name="previewLabel">
++         <property name="text">
++          <string>Sample:</string>
++         </property>
++         <property name="buddy">
++          <cstring>sampleTextEdit</cstring>
++         </property>
++        </widget>
++       </item>
++       <item>
++        <widget class="QTextEdit" name="sampleTextEdit">
++         <property name="whatsThis">
++          <string>This sample text illustrates the current settings. You may edit it to test special characters.</string>
++         </property>
++         <property name="acceptRichText">
++          <bool>false</bool>
++         </property>
++        </widget>
++       </item>
++       <item row="2" column="0">
++        <widget class="QCheckBox" name="onlyFixedCheckBox">
++         <property name="text">
++          <string>Show only monospaced fonts</string>
++         </property>
++        </widget>
++       </item>
++      </layout>
++     </item>
+     </layout>
+    </item>
+   </layout>
+-- 
+2.45.2
+

@@ -1295,7 +1295,7 @@ msgstr ""
 #: kcharselect.cpp:391
 #, fuzzy
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Kasl ouzh ar genrouedad"
 
 #: kcharselect.cpp:393
@@ -1305,10 +1305,10 @@ msgstr ""
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Klask ..."
+msgid "&Find…"
+msgstr "&Kavout"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1756,10 +1756,16 @@ msgstr "Dianav"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgid "Custom..."
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Diouzhoc'h ..."
+msgid "Custom…"
+msgstr "Diouzhoc'h"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1966,14 +1972,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Diskennit"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Nodrezh goulennet"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -1981,14 +1987,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Boas"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgid "Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Italek"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -1996,24 +2002,24 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Italek"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgid "Bold"
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Druz"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2028,78 +2034,83 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Diuzit un nodrezh"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Nodrez"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Nodrezh :"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Giz an nodrezh"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Giz an nodrezh :"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Ment"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Ment :"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Enrollañ"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 #, fuzzy
 #| msgid "Simple"
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "Eeun"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Nodrez"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Nodrezh :"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Giz an nodrezh"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Giz an nodrezh :"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Ment"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Ment :"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Enrollañ"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Dibabit ..."
 
 #: kfontrequester.cpp:190
@@ -2226,14 +2237,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Fazi"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Serriñ"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2242,7 +2253,7 @@ msgstr "Serriñ ar gemennad"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2273,10 +2284,10 @@ msgstr "Bralh"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&Aozañ ..."
+msgid "&Edit…"
+msgstr "&Aozañ"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2378,12 +2389,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Tremenger :"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Klask"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Klask :"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -2583,10 +2594,10 @@ msgstr "Na enrollit ket ar roadoù"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Enrollañ e ..."
+msgid "Save &As…"
+msgstr "Enrollañ e"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -2625,7 +2636,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "&Mod merour ..."
 
 #: kstandardguiitem.cpp:205
@@ -2759,10 +2770,10 @@ msgstr "Mont d'ar prantad a-heul"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Moulañ ..."
+msgid "&Print…"
+msgstr "Moulañ"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -2799,10 +2810,9 @@ msgstr "Lemel an tra(où)"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Digeriñ ..."
+msgid "&Open…"
+msgstr "&Digeriñ"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -2848,10 +2858,10 @@ msgstr "&Ensoc'hañ"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "Kefluniañ ..."
+msgid "Confi&gure…"
+msgstr "Kefluniañ"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -2937,6 +2947,54 @@ msgstr "Mod skramm leun"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Klask ..."
+
+#, fuzzy
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Diouzhoc'h ..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&Aozañ ..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Klask"
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Enrollañ e ..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Moulañ ..."
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Digeriñ ..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "Kefluniañ ..."
 
 #, fuzzy
 #~| msgid "Sorry"
@@ -3611,10 +3669,6 @@ msgstr ""
 #~ msgctxt "@item license (short name)"
 #~ msgid "LGPL v3"
 #~ msgstr "LGPL"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Diouzhoc'h"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -5231,9 +5285,6 @@ msgstr ""
 #~ "Serriñ ha diskar\n"
 #~ "ar c'hemennad-red ?"
 
-#~ msgid "Configure"
-#~ msgstr "Kefluniañ"
-
 #, fuzzy
 #~ msgid "Job"
 #~ msgstr "Jom"
@@ -5538,9 +5589,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Kefluniañ ar Berradennoù"
-
-#~ msgid "Print"
-#~ msgstr "Moulañ"
 
 #, fuzzy
 #~ msgid "Reset to Defaults"
@@ -6886,9 +6934,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "&C'hoari"
 
-#~ msgid "&Edit"
-#~ msgstr "&Aozañ"
-
 #, fuzzy
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
@@ -7381,9 +7426,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC : "
-
-#~ msgid "Save As"
-#~ msgstr "Enrollañ e"
 
 #~ msgid "Follow"
 #~ msgstr "Heuliañ"
@@ -8093,9 +8135,6 @@ msgstr ""
 #~ msgid "Order by:"
 #~ msgstr "Urzhiañ dre :"
 
-#~ msgid "Search:"
-#~ msgstr "Klask :"
-
 #, fuzzy
 #~ msgid "Become a Fan"
 #~ msgstr "Fax ar ger"
@@ -8320,11 +8359,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Digeriñ gant ..."
-
-#, fuzzy
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Digeriñ"
 
 #, fuzzy
 #~ msgctxt "@label File name"

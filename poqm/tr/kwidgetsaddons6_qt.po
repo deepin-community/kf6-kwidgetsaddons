@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2024-02-10 16:17+0300\n"
+"PO-Revision-Date: 2024-08-25 20:47+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 24.11.70\n"
 "X-Qt-Contexts: true\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
@@ -757,7 +757,7 @@ msgstr "ÇJK Uyumluluğu"
 #: kcharselect-translation.cpp:144
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "CJK Unified Ideographs Extension A"
-msgstr "ÇJK Birleştirilmiş Ideograf Uzantısı A"
+msgstr "ÇJK Birleşik Ideograf Uzantısı A"
 
 #: kcharselect-translation.cpp:145
 msgctxt "KCharSelectData|KCharselect unicode block name"
@@ -1017,7 +1017,7 @@ msgstr "Çeşitli Semboller ve Piktograflar"
 #: kcharselect-translation.cpp:197
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Emoticons"
-msgstr "Duygu Simgeleri"
+msgstr "Emojiler"
 
 #: kcharselect-translation.cpp:198
 msgctxt "KCharSelectData|KCharselect unicode block name"
@@ -1066,7 +1066,7 @@ msgstr "Eski Tür Bilişim Sembolleri"
 
 #: kcharselect.cpp:391
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Aranacak terimi veya karakteri gir…"
 
 #: kcharselect.cpp:393
@@ -1076,7 +1076,7 @@ msgstr "Buraya aranacak terimi veya karakteri girin"
 
 #: kcharselect.cpp:400
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
+msgid "&Find…"
 msgstr "&Bul…"
 
 #: kcharselect.cpp:424
@@ -1461,8 +1461,13 @@ msgstr "Bilinmeyen"
 
 #: kcolorcombo.cpp:333
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
+msgid "Custom…"
 msgstr "Özel…"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "Bağlamsal Yardım"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1624,42 +1629,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Aşağı Taşı"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "İstenen Yazıtipi"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normal"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Yatık"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Eğik"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Kalın"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Kalın Sıkıştırılmış Yatık"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Pijamalı hasta, yağız şoföre çabucak güvendi"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1670,47 +1675,18 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Yazıtipi Seç"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Yazıtipi"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
+"Yazıtipi özelliklerinin virgülle ayrılmış listesi (örneğin, liga, calt):"
 
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Yazıtipi:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Yazıtipi biçemi"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Yazıtipi biçemi:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Boyut"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Boyut:"
-
-#: kfontchooserwidget.ui:91
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Göreceli"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "Örnek:"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -1719,14 +1695,49 @@ msgstr ""
 "Aşağıdaki örnek metin güncel ayarları gösteriyor. Özel karakterleri denemek "
 "için üzerinde değişiklikler yapabilirsiniz."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "Yalnızca eş aralıklı yazıtiplerini göster"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Yazıtipi"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Yazıtipi:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Yazıtipi biçemi"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Yazıtipi biçemi:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Boyut"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Boyut:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Göreceli"
+
 #: kfontrequester.cpp:184
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Yazıtipi seç…"
 
 #: kfontrequester.cpp:190
@@ -1747,7 +1758,7 @@ msgstr ""
 #, qt-format
 msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the \"%1\" font"
-msgstr "‘%1’ yazıtipinin önizlemesi"
+msgstr "“%1” yazıtipinin önizlemesi"
 
 #: kfontrequester.cpp:197
 #, qt-format
@@ -1830,19 +1841,19 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Hata"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Kapat"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "İletiyi kapat"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr "Dosya türü veya dosya adı dizgisi ara…"
 
 #: kmimetypechooser.cpp:89
@@ -1867,7 +1878,7 @@ msgstr "Desenler"
 
 #: kmimetypechooser.cpp:126
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
+msgid "&Edit…"
 msgstr "Dü&zenle…"
 
 #: kmimetypechooser.cpp:141
@@ -1928,10 +1939,10 @@ msgid ""
 "Would you like to use this password anyway?"
 msgstr ""
 "Girdiğiniz parola düşük bir güvenilirliğe sahip. Parolanın güvenilirliğini "
-"artırmak için, aşağıdaki yöntemlerden birisini deneyebilirsiniz:\n"
-" - daha uzun bir parola kullanmak;\n"
-" - hem küçük, hem büyük harf kullanmak;\n"
-" - harflerin yanında numara ve sembol de kullanmak. \n"
+"artırmak için aşağıdaki yöntemlerden birisini deneyebilirsiniz:\n"
+" — daha uzun bir parola kullanmak;\n"
+" — hem küçük, hem büyük harf kullanmak;\n"
+" — harflerin yanında numara ve sembol de kullanmak.\n"
 "\n"
 "Yine de bu parolayı kullanmak istiyor musunuz?"
 
@@ -1965,9 +1976,9 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Parola güvenilirlik &göstergesi:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
 msgstr "Ara…"
 
 #: kpassworddialog.cpp:52
@@ -2130,7 +2141,7 @@ msgstr "Veriyi kaydetme"
 
 #: kstandardguiitem.cpp:184
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
+msgid "Save &As…"
 msgstr "&Farklı Kaydet…"
 
 #: kstandardguiitem.cpp:186
@@ -2161,7 +2172,7 @@ msgstr ""
 
 #: kstandardguiitem.cpp:203
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "&Yönetici Kipi…"
 
 #: kstandardguiitem.cpp:205
@@ -2267,7 +2278,7 @@ msgstr "Bir adım ileri git"
 
 #: kstandardguiitem.cpp:276
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
+msgid "&Print…"
 msgstr "Ya&zdır…"
 
 #: kstandardguiitem.cpp:278
@@ -2297,7 +2308,7 @@ msgstr "Öge(ler)i sil"
 
 #: kstandardguiitem.cpp:299
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
+msgid "&Open…"
 msgstr "&Aç…"
 
 #: kstandardguiitem.cpp:301
@@ -2332,7 +2343,7 @@ msgstr "&Ekle"
 
 #: kstandardguiitem.cpp:325
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
+msgid "Confi&gure…"
 msgstr "&Yapılandır…"
 
 #: kstandardguiitem.cpp:330
@@ -2353,7 +2364,7 @@ msgstr "Ekle"
 #: kstandardguiitem.cpp:345
 msgctxt "KStandardGuiItem|"
 msgid "Remove"
-msgstr "Sil"
+msgstr "Kaldır"
 
 #: kstandardguiitem.cpp:350
 msgctxt "KStandardGuiItem|"
@@ -2401,6 +2412,10 @@ msgstr "Tam Ekran"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Pencereyi tam ekran olarak görüntüle"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Bul…"
 
 #~ msgctxt "KFontChooserWidget|"
 #~ msgid "KFontChooserWidget"

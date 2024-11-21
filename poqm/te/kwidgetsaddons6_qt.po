@@ -1652,7 +1652,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "శోధన పదాన్ని లేదా అక్షరాన్ని యిక్కడ ప్రవేశపెట్టుము"
 
 #: kcharselect.cpp:393
@@ -1664,10 +1664,10 @@ msgstr "శోధన పదాన్ని లేదా అక్షరాన్
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "(&F) కనుగొను..."
+msgid "&Find…"
+msgstr "(&F) కనుగొను"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -2207,11 +2207,16 @@ msgstr "తెలియని"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "నిర్దేశితమైన..."
+msgid "Custom…"
+msgstr "నిర్దేశితమైన"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 #, fuzzy
@@ -2447,14 +2452,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "(&D) క్రిందకి జరపండి"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "అభ్యర్దించిన అక్షరరూపం"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2462,7 +2467,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "సాధారణ"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2470,7 +2475,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "ఇటాలిక్"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2478,7 +2483,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "వక్రము"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2486,19 +2491,19 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "లావుగా"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2513,67 +2518,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "అక్షరరూపము ఎంచుకొనుము"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "అక్షర రూపము"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "అక్షర రూపము:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "అక్షర శైలి"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "అక్షర శైలి:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "పరిమాణము"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgctxt "@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "పరిమాణము:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "సంబంధిత"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
@@ -2585,16 +2540,71 @@ msgid ""
 msgstr ""
 "ఈ మాదిరి వచనం ప్రస్తుత అమరికలు చూపును. మీరు దినిని ప్రత్యేక అక్షరాలని పరీక్షించడానికి మార్చవచ్చు."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "అక్షర రూపము"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "అక్షర రూపము:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "అక్షర శైలి"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "అక్షర శైలి:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "పరిమాణము"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgctxt "@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "పరిమాణము:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "సంబంధిత"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "ఎంపిక..."
 
 #: kfontrequester.cpp:190
@@ -2728,14 +2738,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "దోషం"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "(&C) మూసివెయుము"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2744,7 +2754,7 @@ msgstr "సందేశము మూసివేయుము"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2778,10 +2788,10 @@ msgstr "బ్రెయిలి మాదిరిలు"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "(&E) సరిదిద్దు..."
+msgid "&Edit…"
+msgstr "(&E) సరిదిద్దు"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2917,12 +2927,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "సంకేతపదము శక్తి కొలమానము:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "(&S) అన్వెషణ "
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "అన్వేషణ:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -3141,10 +3151,10 @@ msgstr "దత్తాంశమును భద్రపరచవద్దు"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "(&A) ఇలా దాచు..."
+msgid "Save &As…"
+msgstr "ఇలా దాచు"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -3186,7 +3196,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "(&M) వ్యవస్థ పాలకుని స్థితి..."
 
 #: kstandardguiitem.cpp:205
@@ -3332,10 +3342,10 @@ msgstr "ఒక ఆడుగు ముందుకు వెళ్ళు"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "(&P) ప్రచురించు..."
+msgid "&Print…"
+msgstr "ప్రచురణ"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -3374,10 +3384,11 @@ msgstr "అంశాలను తీసివేయండి"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "(&O) తెరువండి..."
+msgid "&Open…"
+msgstr "&Oతెరువండి"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -3424,10 +3435,10 @@ msgstr "(&I) దూర్చు"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "(&g) అమర్చు..."
+msgid "Confi&gure…"
+msgstr "అమర్చు"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -3524,6 +3535,55 @@ msgstr "పూర్తి తెర "
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "గవాక్షమును పూర్తి తెర లొ చూపించుట"
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "(&F) కనుగొను..."
+
+#, fuzzy
+#~| msgctxt "Custom color"
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "నిర్దేశితమైన..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "(&E) సరిదిద్దు..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "(&S) అన్వెషణ "
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "(&A) ఇలా దాచు..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "(&P) ప్రచురించు..."
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "(&O) తెరువండి..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "(&g) అమర్చు..."
 
 #, fuzzy
 #~| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -4667,10 +4727,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "గ్ను తక్కువ సాధారణ పబ్లిక్ లైసెన్స్ వివరణం 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "నిర్దేశితమైన"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -6815,9 +6871,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 #~ "మూసివెయ్యి మరియు విస్మరించు\n"
 #~ "సవరించిన సందేశాలు?"
 
-#~ msgid "Configure"
-#~ msgstr "అమర్చు"
-
 #~ msgid "Job"
 #~ msgstr "జాబ్"
 
@@ -7166,9 +7219,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "శీఘ్రమార్గాలను అమర్చండి"
-
-#~ msgid "Print"
-#~ msgstr "ప్రచురణ"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "అప్రమేయాలకు పునఃఅమర్పు చేయుము"
@@ -8651,9 +8701,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 #~ msgid "&Game"
 #~ msgstr "(&G) ఆట"
 
-#~ msgid "&Edit"
-#~ msgstr "(&E) సరిదిద్దు"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "(&M) జరుపుము"
@@ -9265,9 +9312,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 
 #~ msgid " - BCC: "
 #~ msgstr "- బిసిసి:"
-
-#~ msgid "Save As"
-#~ msgstr "ఇలా దాచు"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -10362,9 +10406,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 #~ msgid "Order by:"
 #~ msgstr "ఈ క్రమములో :"
 
-#~ msgid "Search:"
-#~ msgstr "అన్వేషణ:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">నివాస పుట</a>"
 
@@ -10640,10 +10681,6 @@ msgstr "గవాక్షమును పూర్తి తెర లొ చ�
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&O దీనితో తెరువండి"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Oతెరువండి"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

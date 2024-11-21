@@ -153,26 +153,19 @@ KTitleWidget::KTitleWidget(QWidget *parent)
     : QWidget(parent)
     , d(new KTitleWidgetPrivate(this))
 {
-    QFrame *titleFrame = new QFrame(this);
-    titleFrame->setAutoFillBackground(true);
-    titleFrame->setFrameShape(QFrame::StyledPanel);
-    titleFrame->setFrameShadow(QFrame::Plain);
-    titleFrame->setBackgroundRole(QPalette::Window);
-    titleFrame->setContentsMargins(0, 0, 0, 0);
-
     // default image / text part start
-    d->headerLayout = new QGridLayout(titleFrame);
+    d->headerLayout = new QGridLayout();
     d->headerLayout->setContentsMargins(0, 0, 0, 0);
     d->headerLayout->setSizeConstraint(QLayout::SetFixedSize);
 
-    d->textLabel = new QLabel(titleFrame);
+    d->textLabel = new QLabel(this);
     d->textLabel->setVisible(false);
     d->textLabel->setTextInteractionFlags(Qt::TextSelectableByMouse | Qt::LinksAccessibleByMouse);
 
-    d->imageLabel = new QLabel(titleFrame);
+    d->imageLabel = new QLabel(this);
     d->imageLabel->setVisible(false);
 
-    d->commentLabel = new QLabel(titleFrame);
+    d->commentLabel = new QLabel(this);
     d->commentLabel->setVisible(false);
     d->commentLabel->setOpenExternalLinks(true);
     d->commentLabel->setWordWrap(true);
@@ -181,8 +174,14 @@ KTitleWidget::KTitleWidget(QWidget *parent)
     d->updateIconAlignment(ImageRight); // make sure d->iconAlignment is left, to trigger initial layout
     // default image / text part end
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
-    mainLayout->addWidget(titleFrame);
+    // vertical centering of the complete header
+    auto *mainLayout = new QVBoxLayout(this);
+    mainLayout->addLayout(d->headerLayout);
+    // headerLayout's sizeConstraint being QLayout::SetFixedSize is ignored when added to a layout
+    // with default Qt::Alignment(). instead is stretched to match the whole size.
+    // Sadly QVBoxLayout::addLayout does not have a alignment argument, other than QVBoxLayout::addWidget,
+    // so set it afterwards onto the layout item generated.
+    mainLayout->itemAt(0)->setAlignment(Qt::AlignVCenter);
     mainLayout->setContentsMargins(0, 0, 0, 0);
 }
 

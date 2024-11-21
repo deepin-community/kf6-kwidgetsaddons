@@ -1607,7 +1607,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Gotinek an tîpa e lêgerînê têkeve virê"
 
 #: kcharselect.cpp:393
@@ -1619,10 +1619,10 @@ msgstr "Gotinek an tîpa e lêgerînê têkeve virê"
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Bibîne..."
+msgid "&Find…"
+msgstr "&Bibîne"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -2154,11 +2154,16 @@ msgstr "Nayê zanîn"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Taybet..."
+msgid "Custom…"
+msgstr "Taybet"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 #, fuzzy
@@ -2368,14 +2373,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Bikşîne &Jêr"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Curenivîsa ku tê Xwestin"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2383,7 +2388,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Asayî"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2391,7 +2396,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Îtalîk"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2399,7 +2404,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Xwar"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2407,19 +2412,19 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Stûr"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Aa Bb Cc Çç Dd Ee Ff Gg"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2434,7 +2439,29 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Curetîpê Hilbijêre"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
+msgctxt "KFontChooserWidget|"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
+
+#: kfontchooserwidget.ui:31
+msgctxt "KFontChooserWidget|"
+msgid "Sample:"
+msgstr ""
+
+#: kfontchooserwidget.ui:41
+msgctxt "KFontChooserWidget|"
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr ""
+
+#: kfontchooserwidget.ui:51
+msgctxt "KFontChooserWidget|"
+msgid "Show only monospaced fonts"
+msgstr ""
+
+#: kfontchooserwidget.ui:66
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font"
@@ -2442,7 +2469,7 @@ msgctxt "KFontChooserWidget|"
 msgid "Font"
 msgstr "Curenivîs"
 
-#: kfontchooserwidget.ui:32
+#: kfontchooserwidget.ui:73
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font:"
@@ -2450,7 +2477,7 @@ msgctxt "KFontChooserWidget|"
 msgid "Font:"
 msgstr "Curenivîs:"
 
-#: kfontchooserwidget.ui:50
+#: kfontchooserwidget.ui:91
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font style"
@@ -2458,14 +2485,14 @@ msgctxt "KFontChooserWidget|"
 msgid "Font style"
 msgstr "Şêwaza curetîpan"
 
-#: kfontchooserwidget.ui:57
+#: kfontchooserwidget.ui:98
 #, fuzzy
 #| msgid "Font style:"
 msgctxt "KFontChooserWidget|"
 msgid "Font style:"
 msgstr "Şêwaza curetîpan:"
 
-#: kfontchooserwidget.ui:75
+#: kfontchooserwidget.ui:116
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Size"
@@ -2473,7 +2500,7 @@ msgctxt "KFontChooserWidget|"
 msgid "Size"
 msgstr "Mezinahî"
 
-#: kfontchooserwidget.ui:82
+#: kfontchooserwidget.ui:123
 #, fuzzy
 #| msgctxt "@label:listbox Font size"
 #| msgid "Size:"
@@ -2481,7 +2508,7 @@ msgctxt "KFontChooserWidget|"
 msgid "Size:"
 msgstr "Mezinahî:"
 
-#: kfontchooserwidget.ui:91
+#: kfontchooserwidget.ui:132
 #, fuzzy
 #| msgctxt "@item font size"
 #| msgid "Relative"
@@ -2489,28 +2516,11 @@ msgctxt "KFontChooserWidget|"
 msgid "Relative"
 msgstr "Rêjeyî"
 
-#: kfontchooserwidget.ui:117
-msgctxt "KFontChooserWidget|"
-msgid "Sample:"
-msgstr ""
-
-#: kfontchooserwidget.ui:127
-msgctxt "KFontChooserWidget|"
-msgid ""
-"This sample text illustrates the current settings. You may edit it to test "
-"special characters."
-msgstr ""
-
-#: kfontchooserwidget.ui:137
-msgctxt "KFontChooserWidget|"
-msgid "Show only monospaced fonts"
-msgstr ""
-
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Hilbijêre..."
 
 #: kfontrequester.cpp:190
@@ -2648,14 +2658,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Çewtî"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Bigire"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2664,7 +2674,7 @@ msgstr "Peyamê Bigire"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2695,10 +2705,10 @@ msgstr ""
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&Sererastkirin..."
+msgid "&Edit…"
+msgstr "Sere&rastkirin"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2802,12 +2812,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Pîvana hêza şîfreyê:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Lêgerîn"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Lê Bigere:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -3022,10 +3032,10 @@ msgstr "Daneyê tomar neke"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Cuda &Tomarkirin..."
+msgid "Save &As…"
+msgstr "Cuda tomar bike"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -3068,7 +3078,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "&Moda Gerînende..."
 
 #: kstandardguiitem.cpp:205
@@ -3216,10 +3226,10 @@ msgstr "Gavekê pêş de biçe"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Çap bike..."
+msgid "&Print…"
+msgstr "Bide nivîsandin"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -3258,10 +3268,11 @@ msgstr "Hêmanan jê bibe"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Veke..."
+msgid "&Open…"
+msgstr "&Veke"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -3308,10 +3319,10 @@ msgstr "&Lêzêdekirin"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "&Veavakirin..."
+msgid "Confi&gure…"
+msgstr "Veavakirin"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -3400,6 +3411,55 @@ msgstr "Moda Dîmender Tije"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Bibîne..."
+
+#, fuzzy
+#~| msgctxt "Custom color"
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Taybet..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&Sererastkirin..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Lêgerîn"
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Cuda &Tomarkirin..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Çap bike..."
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Veke..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "&Veavakirin..."
 
 #, fuzzy
 #~| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -4512,10 +4572,6 @@ msgstr ""
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "Lîsansa Gelempera Giştî ya Biçûktir a GNU, Guhertoya 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Taybet"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -6521,9 +6577,6 @@ msgstr ""
 #~ "Tu dixwazî peyama sererastkirî\n"
 #~ "piştguh bikî?"
 
-#~ msgid "Configure"
-#~ msgstr "Veavakirin"
-
 #~ msgid "Job"
 #~ msgstr "Kar"
 
@@ -6851,9 +6904,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Rurteriyan Veava Bike"
-
-#~ msgid "Print"
-#~ msgstr "Bide nivîsandin"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "Bizivire Standardan"
@@ -8264,9 +8314,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "&Lîstik"
 
-#~ msgid "&Edit"
-#~ msgstr "Sere&rastkirin"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&Guhestin"
@@ -8950,9 +8997,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC: "
-
-#~ msgid "Save As"
-#~ msgstr "Cuda tomar bike"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -10175,9 +10219,6 @@ msgstr ""
 #~ msgid "Order by:"
 #~ msgstr "Rêz bike li gorî:"
 
-#~ msgid "Search:"
-#~ msgstr "Lê Bigere:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">Malper</a>"
 
@@ -10454,10 +10495,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Veke bi"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Veke"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

@@ -1145,8 +1145,11 @@ msgid "Symbols for Legacy Computing"
 msgstr "Símbolos de Computação Antigos"
 
 #: kcharselect.cpp:391
+#, fuzzy
+#| msgctxt "KCharSelect|@info:placeholder"
+#| msgid "Enter a search term or character..."
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Indique um termo ou carácter a procurar..."
 
 #: kcharselect.cpp:393
@@ -1155,9 +1158,12 @@ msgid "Enter a search term or character here"
 msgstr "Indique aqui um termo ou carácter a procurar"
 
 #: kcharselect.cpp:400
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Procurar..."
+msgid "&Find…"
+msgstr "&Procurar"
 
 #: kcharselect.cpp:424
 msgctxt "KCharSelect|@action:button Goes to previous character"
@@ -1540,9 +1546,20 @@ msgid "Unknown"
 msgstr "Desconhecido"
 
 #: kcolorcombo.cpp:333
+#, fuzzy
+#| msgctxt "KColorCombo|@item:inlistbox Custom color"
+#| msgid "Custom..."
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
+msgid "Custom…"
 msgstr "Personalizada..."
+
+#: kcontextualhelpbutton.cpp:80
+#, fuzzy
+#| msgctxt "KPasswordDialog|"
+#| msgid "Show Contextual Help"
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "Mostrar a Ajuda de Contexto"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1704,43 +1721,43 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Descer"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Tipo de Letra Pedido"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normal"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Itálico"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Oblíquo"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Negrito"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Negrito Condensado Oblíquo"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 "Vejam a Bruxa da Raposa Salta-Pocinhas e o Cão Feliz Que Dorme Regalado"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1751,47 +1768,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Seleccionar o Tipo de Letra"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Tipo de Letra"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Tipo de letra:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Estilo do tipo de letra"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Estilo do tipo de letra:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Tamanho"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Tamanho:"
-
-#: kfontchooserwidget.ui:91
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Relativo"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -1800,14 +1787,52 @@ msgstr ""
 "Este texto de exemplo ilustra a configuração actual. Pode editá-lo de modo a "
 "testar os caracteres especiais."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "Mostrar apenas os tipos de letra monoespaçados"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Tipo de Letra"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Tipo de letra:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Estilo do tipo de letra"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Estilo do tipo de letra:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Tamanho"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Relativo"
+
 #: kfontrequester.cpp:184
+#, fuzzy
+#| msgctxt "KFontRequester|@info:tooltip"
+#| msgid "Choose font..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Escolher o tipo de letra..."
 
 #: kfontrequester.cpp:190
@@ -1911,19 +1936,22 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Erro"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "Fe&char"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Fechar a mensagem"
 
 #: kmimetypechooser.cpp:88
+#, fuzzy
+#| msgctxt "KMimeTypeChooser|@info:placeholder"
+#| msgid "Search for file type or filename pattern..."
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr "Procurar por um tipo ou padrão de nomes de ficheiros..."
 
 #: kmimetypechooser.cpp:89
@@ -1947,8 +1975,11 @@ msgid "Patterns"
 msgstr "Padrões"
 
 #: kmimetypechooser.cpp:126
+#, fuzzy
+#| msgctxt "KMimeTypeChooser|@action:button"
+#| msgid "&Edit..."
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
+msgid "&Edit…"
 msgstr "&Editar..."
 
 #: kmimetypechooser.cpp:141
@@ -2054,9 +2085,9 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "&Medição da eficácia da senha:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
 msgstr ""
 
 #: kpassworddialog.cpp:52
@@ -2226,8 +2257,11 @@ msgid "Do not save data"
 msgstr "Não gravar os dados"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Save &As..."
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
+msgid "Save &As…"
 msgstr "Gr&avar Como..."
 
 #: kstandardguiitem.cpp:186
@@ -2257,8 +2291,11 @@ msgstr ""
 "Use isto para experimentar diferentes configurações."
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "&Modo de Administração..."
 
 #: kstandardguiitem.cpp:205
@@ -2363,8 +2400,11 @@ msgid "Go forward one step"
 msgstr "Volta um passo adiante"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Print..."
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
+msgid "&Print…"
 msgstr "Im&primir..."
 
 #: kstandardguiitem.cpp:278
@@ -2393,8 +2433,11 @@ msgid "Delete item(s)"
 msgstr "Remove os itens"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
+msgid "&Open…"
 msgstr "&Abrir..."
 
 #: kstandardguiitem.cpp:301
@@ -2428,8 +2471,11 @@ msgid "&Insert"
 msgstr "&Inserir"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Confi&gure..."
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
+msgid "Confi&gure…"
 msgstr "Confi&gurar..."
 
 #: kstandardguiitem.cpp:330
@@ -2498,6 +2544,10 @@ msgstr "Ecrã Completo"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Mostrar a janela em todo o ecrã"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Procurar..."
 
 #~ msgctxt "KFontChooserWidget|"
 #~ msgid "KFontChooserWidget"

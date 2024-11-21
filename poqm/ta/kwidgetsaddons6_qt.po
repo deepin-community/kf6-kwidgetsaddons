@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2024-02-18 15:25+0530\n"
+"PO-Revision-Date: 2024-05-12 14:06+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.02.2\n"
 "X-Qt-Contexts: true\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
@@ -240,36 +240,24 @@ msgid "Thaana"
 msgstr "தானா"
 
 #: kcharselect-translation.cpp:42
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "NKo"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "NKo"
 msgstr "நுகோ"
 
 #: kcharselect-translation.cpp:43
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Samaritan"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Samaritan"
 msgstr "சமாரிடன்"
 
 #: kcharselect-translation.cpp:44
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Mandaic"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Mandaic"
 msgstr "மான்டைக்"
 
 #: kcharselect-translation.cpp:45
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Cyrillic Supplement"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Syriac Supplement"
-msgstr "சிரைலிக் துணை"
+msgstr "சிரியாக் துணை"
 
 #: kcharselect-translation.cpp:46
 msgctxt "KCharSelectData|KCharselect unicode block name"
@@ -357,9 +345,6 @@ msgid "Georgian"
 msgstr "ஜார்ஜிய"
 
 #: kcharselect-translation.cpp:63
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Hangul Jamo"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Hangul Jamo"
 msgstr "ஹங்குல் ஜமொ"
@@ -375,20 +360,14 @@ msgid "Ethiopic Supplement"
 msgstr "எத்தியோப்பிய துணை"
 
 #: kcharselect-translation.cpp:66
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Cherokee"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Cherokee"
-msgstr "செரோகி"
+msgstr "செரோக்கி"
 
 #: kcharselect-translation.cpp:67
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Unified Canadian Aboriginal Syllabics"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Unified Canadian Aboriginal Syllabics"
-msgstr "ஒன்றுபட்ட கனேடிய பூர்வ குடி எழுத்துக்கள்"
+msgstr "ஒன்றுபட்ட கனேடிய பழங்குடியின எழுத்துக்கள்"
 
 #: kcharselect-translation.cpp:68
 msgctxt "KCharSelectData|KCharselect unicode block name"
@@ -406,25 +385,16 @@ msgid "Tagalog"
 msgstr "டாகாலோகு"
 
 #: kcharselect-translation.cpp:71
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Hanunoo"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Hanunoo"
 msgstr "ஹனுனூ"
 
 #: kcharselect-translation.cpp:72
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Buhid"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Buhid"
 msgstr "புஹிட்"
 
 #: kcharselect-translation.cpp:73
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Tagbanwa"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Tagbanwa"
 msgstr "டாக்பான்வா"
@@ -440,57 +410,36 @@ msgid "Mongolian"
 msgstr "மங்கோலிய"
 
 #: kcharselect-translation.cpp:76
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Unified Canadian Aboriginal Syllabics Extended"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Unified Canadian Aboriginal Syllabics Extended"
-msgstr "ஒன்றுபட்ட கனேடிய பூர்வ குடியின் விரிவாக்கப்பட்ட சிலாபிக்ஸ்"
+msgstr "ஒன்றுபட்ட கனேடிய பழங்குடியின எழுத்துக்களின் விரிவாக்கம்"
 
 #: kcharselect-translation.cpp:77
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Limbu"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Limbu"
 msgstr "லிம்பு"
 
 #: kcharselect-translation.cpp:78
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Tai Le"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Tai Le"
 msgstr "டாய் லே"
 
 #: kcharselect-translation.cpp:79
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "New Tai Lue"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "New Tai Lue"
 msgstr "புதிய டாய் ல்யூ"
 
 #: kcharselect-translation.cpp:80
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Khmer Symbols"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Khmer Symbols"
 msgstr "கஹேமர் குறிகள்"
 
 #: kcharselect-translation.cpp:81
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Buginese"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Buginese"
 msgstr "புஜினீஸ்"
 
 #: kcharselect-translation.cpp:82
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Tai Tham"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Tai Tham"
 msgstr "டய் தம்"
@@ -504,68 +453,44 @@ msgid "Combining Diacritical Marks Extended"
 msgstr "பிரித்தற் குறிகளை இணைக்கிறது"
 
 #: kcharselect-translation.cpp:84
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Balinese"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Balinese"
-msgstr "பாலினீஷ்"
+msgstr "பாலினீசு"
 
 #: kcharselect-translation.cpp:85
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Sundanese"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Sundanese"
 msgstr "சூடானிய"
 
 #: kcharselect-translation.cpp:86
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Batak"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Batak"
 msgstr "படாக்"
 
 #: kcharselect-translation.cpp:87
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Lepcha"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Lepcha"
 msgstr "லெப்சா"
 
 #: kcharselect-translation.cpp:88
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Ol Chiki"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Ol Chiki"
 msgstr "ஓல் சிக்கி"
 
 #: kcharselect-translation.cpp:89
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Cyrillic Extended-A"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Cyrillic Extended-C"
-msgstr "இலத்தீன விரிவாக்கம்-A"
+msgstr "சிரிலிக் விரிவாக்கம்-C"
 
 #: kcharselect-translation.cpp:90
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Geometric Shapes"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Georgian Extended"
-msgstr "வரைகணித உருவங்கள்"
+msgstr "ஜார்ஜிய விரிவாக்கம்"
 
 #: kcharselect-translation.cpp:91
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin-1 Supplement"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Sundanese Supplement"
-msgstr "இலத்தீன்-1 துணை"
+msgstr "சூடானிய விரிவாக்கம்"
 
 #: kcharselect-translation.cpp:92
 msgctxt "KCharSelectData|KCharselect unicode block name"
@@ -591,17 +516,11 @@ msgid "Combining Diacritical Marks Supplement"
 msgstr "பிரித்தற் குறிகள் இணைக்கப்படுதற்கான துணை"
 
 #: kcharselect-translation.cpp:96
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended Additional"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Latin Extended Additional"
-msgstr "இலத்தீன விரிவாக்கக் கூடுதல்"
+msgstr "இலத்தீன விரிவாக்கக் கூடுதலானவை"
 
 #: kcharselect-translation.cpp:97
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Greek Extended"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Greek Extended"
 msgstr "கிரேக்க விரிவாக்கம்"
@@ -666,12 +585,9 @@ msgid "Control Pictures"
 msgstr "நிர்வாகப் படங்கள்"
 
 #: kcharselect-translation.cpp:108
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Optical Character Recognition"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Optical Character Recognition"
-msgstr "பிம்ப எழுத்து உணர்வு"
+msgstr "எழுத்துணர்வது"
 
 #: kcharselect-translation.cpp:109
 #, fuzzy
@@ -682,9 +598,6 @@ msgid "Enclosed Alphanumerics"
 msgstr "அடக்கப்பட்ட எண்ணெழுத்துக்கள்"
 
 #: kcharselect-translation.cpp:110
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Box Drawing"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Box Drawing"
 msgstr "பெட்டி வரைதல்"
@@ -698,41 +611,26 @@ msgid "Block Elements"
 msgstr "பாகத்தின் உறுப்புகள்"
 
 #: kcharselect-translation.cpp:112
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Geometric Shapes"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Geometric Shapes"
 msgstr "வரைகணித உருவங்கள்"
 
 #: kcharselect-translation.cpp:113
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Miscellaneous Symbols"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Miscellaneous Symbols"
 msgstr "ஏனைய குறிகள்"
 
 #: kcharselect-translation.cpp:114
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Dingbats"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Dingbats"
-msgstr "டடிங்பட்ஸ்"
+msgstr "டிங்பட்ஸ்"
 
 #: kcharselect-translation.cpp:115
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Miscellaneous Mathematical Symbols-A"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-A"
 msgstr "ஏனையக் கணிதக் குறியீடுகள்-A"
 
 #: kcharselect-translation.cpp:116
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Supplemental Arrows-A"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Supplemental Arrows-A"
 msgstr "துணை அம்புக் குறிகள்-A"
@@ -746,49 +644,31 @@ msgid "Braille Patterns"
 msgstr "பெரைலி மாதிரிகள்"
 
 #: kcharselect-translation.cpp:118
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Supplemental Arrows-B"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Supplemental Arrows-B"
 msgstr "துணை அம்புக் குறிகள்-B"
 
 #: kcharselect-translation.cpp:119
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Miscellaneous Mathematical Symbols-B"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-B"
-msgstr "ஏளையக் கணிதக் குறியீடுகள்-B"
+msgstr "ஏனையக் கணிதக் குறியீடுகள்-B"
 
 #: kcharselect-translation.cpp:120
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Supplemental Mathematical Operators"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Supplemental Mathematical Operators"
-msgstr "கணிதத்துக்கான துணை இயக்கிகள்"
+msgstr "கணிதத்துக்கான துணை செயல்கள்"
 
 #: kcharselect-translation.cpp:121
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Miscellaneous Symbols and Arrows"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Miscellaneous Symbols and Arrows"
 msgstr "ஏனையக் குறியீடுகளும் அம்புக்குறிகளும்"
 
 #: kcharselect-translation.cpp:122
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Glagolitic"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Glagolitic"
 msgstr "கிளாகோலித்திக்"
 
 #: kcharselect-translation.cpp:123
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Latin Extended-C"
 msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Latin Extended-C"
 msgstr "இலத்தீன் விரிவாக்கம்-C"
@@ -1414,8 +1294,8 @@ msgstr "பழங்கால கணினிகளுக்கான குற�
 
 #: kcharselect.cpp:391
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
-msgstr "தேடலையோ எழுத்தையோ இங்கு உள்ளிடவும்..."
+msgid "Enter a search term or character…"
+msgstr "தேடலையோ எழுத்தையோ இங்கு உள்ளிடவும்…"
 
 #: kcharselect.cpp:393
 msgctxt "KCharSelect|@info:tooltip"
@@ -1424,8 +1304,8 @@ msgstr "தேடலையோ எழுத்தையோ இங்கு உள
 
 #: kcharselect.cpp:400
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&தேடு..."
+msgid "&Find…"
+msgstr "&கண்டுபிடி…"
 
 #: kcharselect.cpp:424
 msgctxt "KCharSelect|@action:button Goes to previous character"
@@ -1495,11 +1375,9 @@ msgid "Annotations and Cross References"
 msgstr "பிற்சேர்க்கைகளும் மேற்கோள்களும்"
 
 #: kcharselect.cpp:815
-#, fuzzy
-#| msgid "Alias names:"
 msgctxt "KCharSelect|"
 msgid "Alias names:"
-msgstr "புனைப் பெயர்கள்:"
+msgstr "மாற்றுப்பெயர்கள்:"
 
 #: kcharselect.cpp:823
 msgctxt "KCharSelect|"
@@ -1522,18 +1400,14 @@ msgid "Approximate equivalents:"
 msgstr "தோராயமாக நிகரானவை:"
 
 #: kcharselect.cpp:862
-#, fuzzy
-#| msgid "Description:"
 msgctxt "KCharSelect|"
 msgid "Decomposition:"
-msgstr "விவரம்:"
+msgstr "பிரிக்கை:"
 
 #: kcharselect.cpp:874
-#, fuzzy
-#| msgid "CJK Ideograph Information"
 msgctxt "KCharSelect|"
 msgid "CJK Ideograph Information"
-msgstr "CJK ஐடியோகிராப் தகவல்"
+msgstr "CJK குறி விவரம்"
 
 #: kcharselect.cpp:877
 msgctxt "KCharSelect|"
@@ -1541,43 +1415,31 @@ msgid "Definition in English: "
 msgstr "ஆங்கில விளக்கம்:"
 
 #: kcharselect.cpp:884
-#, fuzzy
-#| msgid "Mandarin Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Mandarin Pronunciation: "
-msgstr "மான்டிரிய உச்சரிப்பு:"
+msgstr "மான்டரின் உச்சரிப்பு:"
 
 #: kcharselect.cpp:891
-#, fuzzy
-#| msgid "Cantonese Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Cantonese Pronunciation: "
-msgstr "கன்டோனிய உச்சரிப்பு:"
+msgstr "கண்டொனீசு உச்சரிப்பு:"
 
 #: kcharselect.cpp:898
-#, fuzzy
-#| msgid "Japanese On Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Japanese On Pronunciation: "
 msgstr "ஜப்பானிய ஓன் உச்சரிப்பு:"
 
 #: kcharselect.cpp:905
-#, fuzzy
-#| msgid "Japanese Kun Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Japanese Kun Pronunciation: "
 msgstr "ஜப்பானிய குன் உச்சரிப்பு:"
 
 #: kcharselect.cpp:912
-#, fuzzy
-#| msgid "Tang Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Tang Pronunciation: "
 msgstr "டாங் உச்சரிப்பு:"
 
 #: kcharselect.cpp:919
-#, fuzzy
-#| msgid "Korean Pronunciation: "
 msgctxt "KCharSelect|"
 msgid "Korean Pronunciation: "
 msgstr "கொரிய உச்சரிப்பு:"
@@ -1588,8 +1450,6 @@ msgid "General Character Properties"
 msgstr "எழுத்துக்கான பொதுவான பண்புகள்"
 
 #: kcharselect.cpp:926
-#, fuzzy
-#| msgid "Block: "
 msgctxt "KCharSelect|"
 msgid "Block: "
 msgstr "பாகம்:"
@@ -1637,11 +1497,9 @@ msgid "In decimal"
 msgstr "தசம வடிவில்:"
 
 #: kcharselectdata.cpp:303
-#, fuzzy
-#| msgid "Any Character"
 msgctxt "KCharSelectData|"
 msgid "<noncharacter>"
-msgstr "ஏதாவதொஒரு எழுத்து"
+msgstr "<எழுத்தல்லாதது>"
 
 #: kcharselectdata.cpp:324
 #, fuzzy
@@ -1672,8 +1530,6 @@ msgid "<Private Use>"
 msgstr "<தனிப் பயன்பாட்டுக்காக>"
 
 #: kcharselectdata.cpp:362
-#, fuzzy
-#| msgid "<not assigned>"
 msgctxt "KCharSelectData|"
 msgid "<not assigned>"
 msgstr "<ஒதுக்கப்படவில்லை>"
@@ -1709,8 +1565,6 @@ msgid "Other, Private Use"
 msgstr "ஏனைய, தனிப் பயன்பாட்டுக்கான"
 
 #: kcharselectdata.cpp:793
-#, fuzzy
-#| msgid "Other, Surrogate"
 msgctxt "KCharSelectData|"
 msgid "Other, Surrogate"
 msgstr "ஏனைய, மாற்று"
@@ -1832,50 +1686,36 @@ msgid "Punctuation, Open"
 msgstr "நிறுத்தம், திறந்த"
 
 #: kcharselectdata.cpp:831
-#, fuzzy
-#| msgid "Symbol, Currency"
 msgctxt "KCharSelectData|"
 msgid "Symbol, Currency"
 msgstr "குறி, நாணயம்"
 
 #: kcharselectdata.cpp:833
-#, fuzzy
-#| msgid "Symbol, Modifier"
 msgctxt "KCharSelectData|"
 msgid "Symbol, Modifier"
 msgstr "குறி, மாற்றி"
 
 #: kcharselectdata.cpp:835
-#, fuzzy
-#| msgid "Symbol, Math"
 msgctxt "KCharSelectData|"
 msgid "Symbol, Math"
 msgstr "குறி, கணித"
 
 #: kcharselectdata.cpp:837
-#, fuzzy
-#| msgid "Symbol, Other"
 msgctxt "KCharSelectData|"
 msgid "Symbol, Other"
 msgstr "குறி, ஏனைய"
 
 #: kcharselectdata.cpp:839
-#, fuzzy
-#| msgid "Separator, Line"
 msgctxt "KCharSelectData|"
 msgid "Separator, Line"
 msgstr "பிரிப்பான், வரி"
 
 #: kcharselectdata.cpp:841
-#, fuzzy
-#| msgid "Separator, Paragraph"
 msgctxt "KCharSelectData|"
 msgid "Separator, Paragraph"
 msgstr "பிரிப்பான், பத்தி"
 
 #: kcharselectdata.cpp:843
-#, fuzzy
-#| msgid "Separator, Space"
 msgctxt "KCharSelectData|"
 msgid "Separator, Space"
 msgstr "பிரிப்பான், வெளி"
@@ -1887,8 +1727,13 @@ msgstr "தெரியாதது"
 
 #: kcolorcombo.cpp:333
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "விருப்பமானது..."
+msgid "Custom…"
+msgstr "விருப்பமானது…"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "சூழல்சார் உதவி"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -2052,22 +1897,22 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&கீழே நகர்த்து"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "கோரப்பட்ட எழுத்துரு"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "சாதாரணம்"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "சாய்வெழுத்து"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2075,24 +1920,24 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "வளைந்த"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "தடித்தது"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 "The Quick Brown Fox Jumps Over The Lazy Dog. யாதும் ஊரே யாவரும் கேளிர்; தீதும் "
 "நன்றும் பிறர் தர வாரா. சையெனத் திரியேல், சொற் சோர்வு படேல்"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -2103,50 +1948,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "எழுத்துருவை தேர்வு செய்தல்"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "எழுத்துரு"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "எழுத்துரு:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "எழுத்துரு வகை"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "எழுத்துரு வகை:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "அளவு"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "அளவு:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "தொடர்புடைய"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "மாதிரி"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -2155,15 +1967,53 @@ msgstr ""
 "இவ்வுதாரண உரை, தற்போதைய அமைப்புகளை எடுத்துக்காட்டுகிறது. பிற எழுத்துகளைப் பார்க்க, "
 "இவ்வுரையை திருத்தலாம்."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "சம‍அகல எழுத்துருக்களை மட்டும் காட்டு"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "எழுத்துரு"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "எழுத்துரு:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "எழுத்துரு வகை"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "எழுத்துரு வகை:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "அளவு"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "அளவு:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "தொடர்புடைய"
+
 #: kfontrequester.cpp:184
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
-msgstr "எழுத்துருவை தேர்வு செய்..."
+msgid "Choose font…"
+msgstr "எழுத்துருவை தேர்வு செய்…"
 
 #: kfontrequester.cpp:190
 msgctxt "KFontRequester|@info:tooltip"
@@ -2266,20 +2116,20 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "சிக்கல்"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&மூடு"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "தகவலை மூடு"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
-msgstr "கோப்பு வகை அல்லது பாங்கை தேடுங்கள்..."
+msgid "Search for file type or filename pattern…"
+msgstr "கோப்பு வகையை அல்லது பாங்கைப் பொறுத்து தேடு…"
 
 #: kmimetypechooser.cpp:89
 msgctxt "KMimeTypeChooser|@label:textbox"
@@ -2303,8 +2153,8 @@ msgstr "பாங்குகள்"
 
 #: kmimetypechooser.cpp:126
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&திருத்து..."
+msgid "&Edit…"
+msgstr "&திருத்து…"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2399,10 +2249,10 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "கடவுச்சொல் பாதுகாப்பு அளவுகோல்:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "தேடு..."
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "தேடு…"
 
 #: kpassworddialog.cpp:52
 msgctxt "KPasswordDialog|@title:window"
@@ -2563,8 +2413,8 @@ msgstr "தரவை சேமிக்காதே"
 
 #: kstandardguiitem.cpp:184
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "&இப்படி சேமி..."
+msgid "Save &As…"
+msgstr "&வேறு பெயரில் சேமி…"
 
 #: kstandardguiitem.cpp:186
 msgctxt "KStandardGuiItem|"
@@ -2594,8 +2444,8 @@ msgstr ""
 
 #: kstandardguiitem.cpp:203
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
-msgstr "நிர்வாகி &பயன்முறை"
+msgid "Administrator &Mode…"
+msgstr "நிர்வாக &பயன்முறை…"
 
 #: kstandardguiitem.cpp:205
 msgctxt "KStandardGuiItem|"
@@ -2699,8 +2549,8 @@ msgstr "ஒரு படி முன்னே செல்"
 
 #: kstandardguiitem.cpp:276
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&அச்சிடு..."
+msgid "&Print…"
+msgstr "&அச்சிடு…"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -2729,8 +2579,8 @@ msgstr "உருப்படி(யை/களை) நீக்கு"
 
 #: kstandardguiitem.cpp:299
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&திற..."
+msgid "&Open…"
+msgstr "&திற…"
 
 #: kstandardguiitem.cpp:301
 msgctxt "KStandardGuiItem|"
@@ -2764,8 +2614,8 @@ msgstr "&உள்ளிடு"
 
 #: kstandardguiitem.cpp:325
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "&அமை..."
+msgid "Confi&gure…"
+msgstr "&அமை…"
 
 #: kstandardguiitem.cpp:330
 msgctxt "KStandardGuiItem|"
@@ -2833,6 +2683,38 @@ msgstr "முழுத்திரை"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "சாளரத்தை முழுத்திரை பயன்முறையில் காட்டு"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&தேடு..."
+
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "விருப்பமானது..."
+
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&திருத்து..."
+
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "தேடு..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "&இப்படி சேமி..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&அச்சிடு..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&திற..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "&அமை..."
 
 #, fuzzy
 #~| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -3975,10 +3857,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU Lesser General Public License Version 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "தனிப்பட்ட"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -6153,9 +6031,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 #~ "தொகுக்கப்பட்ட தகவலைக்\n"
 #~ "கைவிட்டு மூடியும்விடலாமாா? "
 
-#~ msgid "Configure"
-#~ msgstr "வடிவமை"
-
 #~ msgid "Job"
 #~ msgstr "பணி"
 
@@ -6513,9 +6388,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "சுருக்குவழிகளை வடிவமை"
-
-#~ msgid "Print"
-#~ msgstr "அச்சிடுக"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "இயல்பிருப்பையே அமை"
@@ -8048,9 +7920,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 #~ msgid "&Game"
 #~ msgstr "&விளையாட்டு"
 
-#~ msgid "&Edit"
-#~ msgstr "&தொகுக்க"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&நகர்த்துக"
@@ -8768,9 +8637,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC: "
-
-#~ msgid "Save As"
-#~ msgstr "மாற்றிக் காக்க"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -10025,9 +9891,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 #~ msgid "Order by:"
 #~ msgstr "வரிசை முறை:"
 
-#~ msgid "Search:"
-#~ msgstr "தேடுக:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">முகப்பக்கம்</a>"
 
@@ -10312,10 +10175,6 @@ msgstr "சாளரத்தை முழுத்திரை பயன்ம�
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&எதனால் திறக்க..."
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&திறக்க"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

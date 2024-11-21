@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(KF_VERSION "6.0.0") # handled by release scripts
+set(KF_VERSION "6.6.0") # handled by release scripts
 project(KWidgetsAddons VERSION ${KF_VERSION})
 
 include(FeatureSummary)
-find_package(ECM 6.0.0  NO_MODULE)
+find_package(ECM 6.6.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
@@ -51,7 +51,7 @@ ecm_install_po_files_as_qm(poqm)
 configure_file(test-config.h.in ${CMAKE_CURRENT_BINARY_DIR}/test-config.h)
 
 ecm_set_disabled_deprecation_versions(
-    QT 6.5
+    QT 6.7
 )
 
 add_subdirectory(src)

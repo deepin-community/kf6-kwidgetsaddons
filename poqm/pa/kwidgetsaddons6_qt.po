@@ -1389,7 +1389,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "ਇੱਕ ਖੋਜ ਸ਼ਬਦ ਜਾਂ ਅੱਖਰ ਇੱਥੇ ਦਿਓ"
 
 #: kcharselect.cpp:393
@@ -1401,10 +1401,11 @@ msgstr "ਇੱਕ ਖੋਜ ਸ਼ਬਦ ਜਾਂ ਅੱਖਰ ਇੱਥੇ ਦ
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "ਖੋਜ(&F)..."
+msgid "&Find…"
+msgstr "ਖੋਜ(&F)"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1924,11 +1925,16 @@ msgstr "ਅਣਪਛਾਤਾ"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "ਕਸਟਮ..."
+msgid "Custom…"
+msgstr "ਕਸਟਮ"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 #, fuzzy
@@ -2170,14 +2176,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "ਹੇਠਾਂ ਭੇਜੋ(&D)"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "ਲੋੜੀਦੇ ਫੋਂਟ"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2185,32 +2191,32 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "ਸਧਾਰਨ"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "ਤਿਰਛੇ"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "ਗੂੜ੍ਹੇ"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -2223,68 +2229,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "ਫੋਂਟ ਚੁਣੋ"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "ਫੋਂਟ"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgctxt "KFontChooser|@label"
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "ਫੋਂਟ:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "ਫੋਂਟ ਸਟਾਇਲ"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgctxt "KFontChooser|"
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "ਫੋਂਟ ਸਟਾਇਲ:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "ਆਕਾਰ"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgctxt "KFontChooser|@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "ਆਕਾਰ:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "KFontChooser|@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "ਅਨੁਸਾਰੀ"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid ""
@@ -2298,17 +2253,73 @@ msgstr ""
 "ਇਸ ਸਧਾਰਨ ਟੈਕਸਟ ਤੁਹਾਡੀ ਸੈਟਿੰਗ ਨੂੰ ਪੇਸ਼ ਕਰ ਰਿਹਾ ਹੈ। ਤੁਸੀ ਇਸ ਨੂੰ ਖਾਸ ਅੱਖਰ ਜਾਂਚਣ ਲਈ ਸੋਧ ਵੀ ਸਕਦੇ "
 "ਹੋ।"
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "ਫੋਂਟ"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgctxt "KFontChooser|@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "ਫੋਂਟ:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "ਫੋਂਟ ਸਟਾਇਲ"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgctxt "KFontChooser|"
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "ਫੋਂਟ ਸਟਾਇਲ:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "ਆਕਾਰ"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgctxt "KFontChooser|@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "ਆਕਾਰ:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "KFontChooser|@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "ਅਨੁਸਾਰੀ"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgctxt "KFontRequester|"
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "ਚੁਣੋ..."
 
 #: kfontrequester.cpp:190
@@ -2437,7 +2448,7 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "ਗਲਤੀ"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "&Close"
@@ -2445,7 +2456,7 @@ msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "ਬੰਦ ਕਰੋ(&C)"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "Close message"
@@ -2455,7 +2466,7 @@ msgstr "ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2491,11 +2502,10 @@ msgstr "ਤਰਤੀਬ"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgctxt "KMimeTypeChooser|"
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "ਸੋਧੋ(&E)..."
+msgid "&Edit…"
+msgstr "ਸੋਧ(&E)"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2635,12 +2645,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "ਪਾਸਵਰਡ ਤਾਕਤ ਮੀਟਰ(&m):"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "ਖੋਜ"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "ਖੋਜ:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -2853,9 +2863,11 @@ msgid "Do not save data"
 msgstr "ਡਾਟਾ ਨਾ ਸੰਭਾਲੋ"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "ਇੰਝ ਸੰਭਾਲੋ(&A)..."
+msgid "Save &As…"
+msgstr "ਇੰਝ ਸੰਭਾਲੋ"
 
 #: kstandardguiitem.cpp:186
 msgctxt "KStandardGuiItem|"
@@ -2884,8 +2896,11 @@ msgstr ""
 "ਇਸ ਨੂੰ ਵੱਖਰੀ ਸੈਟਿੰਗ ਵਰਤਣ ਲਈ ਵਰਤੋਂ।"
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "ਪਰਸ਼ਾਸਕੀ ਮੋਡ(&M)..."
 
 #: kstandardguiitem.cpp:205
@@ -2989,9 +3004,11 @@ msgid "Go forward one step"
 msgstr "ਇੱਕ ਸਟੈਪ ਅੱਗੇ ਜਾਓ"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "ਪਰਿੰਟ ਕਰੋ(&P)..."
+msgid "&Print…"
+msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -3019,9 +3036,12 @@ msgid "Delete item(s)"
 msgstr "ਆਈਟਮਾਂ ਹਟਾਓ"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "ਖੋਲ੍ਹੋ(&O)..."
+msgid "&Open…"
+msgstr "ਖੋਲ੍ਹੋ(&O)"
 
 #: kstandardguiitem.cpp:301
 msgctxt "KStandardGuiItem|"
@@ -3054,9 +3074,11 @@ msgid "&Insert"
 msgstr "ਸ਼ਾਮਲ(&I)"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "ਸੰਰਚਨਾ(&g)..."
+msgid "Confi&gure…"
+msgstr "ਸੰਰਚਨਾ"
 
 #: kstandardguiitem.cpp:330
 msgctxt "KStandardGuiItem|"
@@ -3124,6 +3146,48 @@ msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵੇਖਾਓ"
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "ਖੋਜ(&F)..."
+
+#, fuzzy
+#~| msgctxt "Custom color"
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "ਕਸਟਮ..."
+
+#, fuzzy
+#~| msgctxt "KMimeTypeChooser|"
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "ਸੋਧੋ(&E)..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "ਖੋਜ"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "ਇੰਝ ਸੰਭਾਲੋ(&A)..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "ਪਰਿੰਟ ਕਰੋ(&P)..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "ਖੋਲ੍ਹੋ(&O)..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "ਸੰਰਚਨਾ(&g)..."
 
 #, fuzzy
 #~| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -4239,10 +4303,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਈਸੈਂਸ ਵਰਜਨ 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "ਕਸਟਮ"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -6407,9 +6467,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 #~ "ਸੋਧਿਆ ਸੁਨੇਹਾ\n"
 #~ "ਅਣਡਿੱਠਾ ਕਰਕੇ ਬੰਦ ਕਰਨਾ ਹੈ?"
 
-#~ msgid "Configure"
-#~ msgstr "ਸੰਰਚਨਾ"
-
 #~ msgid "Job"
 #~ msgstr "ਜਾਬ"
 
@@ -6765,9 +6822,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "ਸ਼ਾਰਟਕੱਟ ਸੰਰਚਨਾ"
-
-#~ msgid "Print"
-#~ msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "ਡਿਫਾਲਟ ਲਈ ਰੀ-ਸੈੱਟ"
@@ -8271,9 +8325,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 #~ msgid "&Game"
 #~ msgstr "ਖੇਡ(&G)"
 
-#~ msgid "&Edit"
-#~ msgstr "ਸੋਧ(&E)"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "ਹਿਲਾਓ(&M)"
@@ -8961,9 +9012,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC: "
-
-#~ msgid "Save As"
-#~ msgstr "ਇੰਝ ਸੰਭਾਲੋ"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -10200,9 +10248,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 #~ msgid "Order by:"
 #~ msgstr "ਲੜੀਬੱਧ:"
 
-#~ msgid "Search:"
-#~ msgstr "ਖੋਜ:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">ਮੁੱਖ ਪੇਜ਼</a>"
 
@@ -10478,10 +10523,6 @@ msgstr "ਵਿੰਡੋ ਨੂੰ ਪੂਰੀ ਸਕਰੀਨ ਉੱਤੇ ਵ�
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "ਇਸ ਨਾਲ ਖੋਲ੍ਹੋ(&O)"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "ਖੋਲ੍ਹੋ(&O)"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"
