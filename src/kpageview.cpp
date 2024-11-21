@@ -2,6 +2,8 @@
     This file is part of the KDE Libraries
     SPDX-FileCopyrightText: 2006 Tobias Koenig <tokoe@kde.org>
     SPDX-FileCopyrightText: 2007 Rafael Fernández López <ereslibre@kde.org>
+    SPDX-FileCopyrightText: 2024 g10 Code GmbH
+    SPDX-FileContributor: Carl Schwan <carl.schwan@gnupg.com>
 
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
@@ -25,8 +27,24 @@
 #include <QLabel>
 #include <QPaintEvent>
 #include <QPainter>
+#include <QProxyStyle>
 #include <QSize>
 #include <QTimer>
+#include <QToolButton>
+#include <QWidgetAction>
+
+// Remove the additional margin of the toolbar
+class NoPaddingToolBarProxyStyle : public QProxyStyle
+{
+public:
+    int pixelMetric(PixelMetric metric, const QStyleOption *option, const QWidget *widget) const override
+    {
+        if (metric == QStyle::PM_ToolBarItemMargin) {
+            return 0;
+        }
+        return QProxyStyle::pixelMetric(metric, option, widget);
+    }
+};
 
 // Helper class that draws a rect over a matched widget
 class SearchMatchOverlay : public QWidget
@@ -42,6 +60,11 @@ public:
 
         show();
         raise();
+    }
+
+    int tabIndex() const
+    {
+        return m_tabIdx;
     }
 
 private:
@@ -133,7 +156,7 @@ void KPageViewPrivate::rebuildGui()
         stack->setVisible(false);
         layout->removeWidget(stack);
     } else {
-        layout->addWidget(stack, 3, 1);
+        layout->addWidget(stack, 3, 1, 1, 2);
         stack->setVisible(true);
     }
 
@@ -166,7 +189,9 @@ void KPageViewPrivate::rebuildGui()
     }
 
     layout->removeWidget(titleWidget);
+    layout->removeWidget(actionsToolBar);
 
+    actionsToolBar->setVisible(q->showPageHeader());
     if (pageHeader) {
         layout->removeWidget(pageHeader);
         pageHeader->setVisible(q->showPageHeader());
@@ -175,14 +200,16 @@ void KPageViewPrivate::rebuildGui()
         if (faceType == KPageView::Tabbed) {
             layout->addWidget(pageHeader, 1, 1);
         } else {
-            layout->addWidget(pageHeader, 1, 1, 1, 2);
+            layout->addWidget(pageHeader, 1, 1);
+            layout->addWidget(actionsToolBar, 1, 2);
         }
     } else {
         titleWidget->setVisible(q->showPageHeader());
         if (faceType == KPageView::Tabbed) {
             layout->addWidget(titleWidget, 1, 1);
         } else {
-            layout->addWidget(titleWidget, 1, 1, 1, 2);
+            layout->addWidget(titleWidget, 1, 1);
+            layout->addWidget(actionsToolBar, 1, 2);
         }
     }
 
@@ -359,6 +386,7 @@ void KPageViewPrivate::pageSelected(const QItemSelection &index, const QItemSele
         }
 
         updateTitleWidget(currentIndex);
+        updateActionsLayout(currentIndex, previousIndex);
     }
 
     Q_Q(KPageView);
@@ -384,6 +412,28 @@ void KPageViewPrivate::updateTitleWidget(const QModelIndex &index)
     titleWidget->setVisible(q->showPageHeader());
 }
 
+void KPageViewPrivate::updateActionsLayout(const QModelIndex &index, const QModelIndex &previous)
+{
+    Q_Q(KPageView);
+
+    if (previous.isValid()) {
+        const auto previousActions = qvariant_cast<QList<QAction *>>(model->data(index, KPageModel::ActionsRole));
+        for (const auto action : previousActions) {
+            actionsToolBar->removeAction(action);
+        }
+    }
+
+    const auto actions = qvariant_cast<QList<QAction *>>(model->data(index, KPageModel::ActionsRole));
+    if (actions.isEmpty()) {
+        actionsToolBar->hide();
+    } else {
+        actionsToolBar->show();
+        for (const auto action : actions) {
+            actionsToolBar->addAction(action);
+        }
+    }
+}
+
 void KPageViewPrivate::dataChanged(const QModelIndex &, const QModelIndex &)
 {
     // When data has changed we update the header and icon for the currently selected
@@ -407,8 +457,8 @@ KPageViewPrivate::KPageViewPrivate(KPageView *_parent)
     , layout(nullptr)
     , stack(nullptr)
     , titleWidget(nullptr)
-    , searchLineEditContainer(new QWidget())
-    , searchLineEdit(new QLineEdit())
+    , searchLineEditContainer(nullptr)
+    , searchLineEdit(nullptr)
     , view(nullptr)
 {
 }
@@ -418,20 +468,30 @@ void KPageViewPrivate::init()
     Q_Q(KPageView);
     layout = new QGridLayout(q);
     stack = new KPageStackedWidget(q);
+
     titleWidget = new KTitleWidget(q);
     titleWidget->setObjectName("KPageView::TitleWidget");
+    titleWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
     separatorLine = new QFrame(q);
     separatorLine->setFrameShape(QFrame::HLine);
     separatorLine->setFixedHeight(1);
     separatorLine->setFrameShadow(QFrame::Sunken);
 
+    actionsToolBar = new QToolBar(q);
+    actionsToolBar->setObjectName(QLatin1String("KPageView::TitleWidget"));
+    actionsToolBar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    actionsToolBar->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+    actionsToolBar->setStyle(new NoPaddingToolBarProxyStyle);
+    actionsToolBar->show();
+
     // list view under it to the left
-    layout->addWidget(titleWidget, 1, 1, 1, 2);
+    layout->addWidget(titleWidget, 1, 1);
+    layout->addWidget(actionsToolBar, 1, 1);
     // separator
     layout->addWidget(separatorLine, 2, 0, 1, 3);
     // and then the actual page on the right
-    layout->addWidget(stack, 3, 1);
+    layout->addWidget(stack, 3, 1, 1, 2);
 
     defaultWidget = new QWidget(q);
     stack->addWidget(defaultWidget);
@@ -440,19 +500,21 @@ void KPageViewPrivate::init()
     layout->setColumnStretch(1, 1);
     layout->setRowStretch(3, 1);
 
+    searchLineEdit = new QLineEdit(defaultWidget);
     searchTimer.setInterval(400);
     searchTimer.setSingleShot(true);
     searchTimer.callOnTimeout(q, [this] {
         onSearchTextChanged();
     });
     q->setFocusProxy(searchLineEdit);
-    searchLineEdit->setPlaceholderText(KPageView::tr("Search..."));
+    searchLineEdit->setPlaceholderText(KPageView::tr("Search…", "@info:placeholder"));
     searchLineEdit->setClearButtonEnabled(true);
-    searchLineEdit->setParent(defaultWidget);
     auto a = new QAction(q);
     a->setIcon(QIcon::fromTheme(QStringLiteral("search")));
     searchLineEdit->addAction(a, QLineEdit::LeadingPosition);
     q->connect(searchLineEdit, &QLineEdit::textChanged, &searchTimer, QOverload<>::of(&QTimer::start));
+
+    searchLineEditContainer = new QWidget(q);
     auto containerLayout = new QVBoxLayout(searchLineEditContainer);
     containerLayout->setContentsMargins({});
     containerLayout->setSpacing(0);
@@ -600,22 +662,18 @@ void KPageViewPrivate::onSearchTextChanged()
         // @p w lives
         auto parent = w->parentWidget();
         TabWidgetAndPage p = {nullptr, nullptr};
-        if (auto tw = qobject_cast<QTabWidget *>(parent)) {
-            p.first = tw;
-        }
         QVarLengthArray<QWidget *, 8> parentChain;
+        parentChain << parent;
         while (parent) {
-            if (!p.first) {
-                if (auto tw = qobject_cast<QTabWidget *>(parent)) {
-                    if (parentChain.size() >= 3) {
-                        // last == QTabWidget
-                        // second last == QStackedWidget of QTabWidget
-                        // third last => the widget we want
-                        p.second = parentChain.value((parentChain.size() - 1) - 2);
-                    }
-                    p.first = tw;
-                    break;
+            if (auto tw = qobject_cast<QTabWidget *>(parent)) {
+                if (parentChain.size() >= 3) {
+                    // last == QTabWidget
+                    // second last == QStackedWidget of QTabWidget
+                    // third last => the widget we want
+                    p.second = parentChain.value((parentChain.size() - 1) - 2);
                 }
+                p.first = tw;
+                break;
             }
             parent = parent->parentWidget();
             parentChain << parent;
@@ -636,7 +694,14 @@ void KPageViewPrivate::onSearchTextChanged()
                     // qDebug() << page << tabWidget << "not found" << w;
                     continue;
                 }
-                m_searchMatchOverlays << new SearchMatchOverlay(tabWidget->tabBar(), idx);
+
+                const bool alreadyOverlayed =
+                    std::any_of(m_searchMatchOverlays.cbegin(), m_searchMatchOverlays.cend(), [tabbar = tabWidget->tabBar(), idx](SearchMatchOverlay *overlay) {
+                        return idx == overlay->tabIndex() && tabbar == overlay->parentWidget();
+                    });
+                if (!alreadyOverlayed) {
+                    m_searchMatchOverlays << new SearchMatchOverlay(tabWidget->tabBar(), idx);
+                }
             }
         }
     }
@@ -775,15 +840,18 @@ void KPageView::setPageHeader(QWidget *header)
         d->layout->removeWidget(d->pageHeader);
     }
     d->layout->removeWidget(d->titleWidget);
+    d->layout->removeWidget(d->actionsToolBar);
 
     d->pageHeader = header;
 
     // Give it a colSpan of 2 to add a margin to the right
     if (d->pageHeader) {
-        d->layout->addWidget(d->pageHeader, 1, 1, 1, 2);
+        d->layout->addWidget(d->pageHeader, 1, 1, 1, 1);
+        d->layout->addWidget(d->actionsToolBar, 1, 2);
         d->pageHeader->setVisible(showPageHeader());
     } else {
-        d->layout->addWidget(d->titleWidget, 1, 1, 1, 2);
+        d->layout->addWidget(d->titleWidget, 1, 1, 1, 1);
+        d->layout->addWidget(d->actionsToolBar, 1, 2);
         d->titleWidget->setVisible(showPageHeader());
     }
 }
@@ -812,7 +880,7 @@ void KPageView::setPageFooter(QWidget *footer)
 
     if (footer) {
         d->pageFooter->setContentsMargins(4, 4, 4, 4);
-        d->layout->addWidget(d->pageFooter, 4, 1);
+        d->layout->addWidget(d->pageFooter, 4, 1, 1, 2);
     }
 }
 

@@ -1254,7 +1254,7 @@ msgstr ""
 #: kcharselect.cpp:391
 #, fuzzy
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "തെരച്ചില്‍ പദമോ അക്ഷരരൂപമോ ഇവിടെ നല്‍കുക"
 
 #: kcharselect.cpp:393
@@ -1266,8 +1266,8 @@ msgstr "തെരച്ചില്‍ പദമോ അക്ഷരരൂപമ�
 #: kcharselect.cpp:400
 #, fuzzy
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&കണ്ടുപിടിക്കുക..."
+msgid "&Find…"
+msgstr "കണ്ടുപിടിയ്ക്കുക &f"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1727,9 +1727,16 @@ msgstr "അപരിചിതം"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "ഇഷ്ടപ്പെട്ട..."
+msgid "Custom…"
+msgstr "സ്വന്തമായുള്ള"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 #, fuzzy
@@ -1913,50 +1920,50 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&താഴേയ്ക്കു് നീക്കുക"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "ആവശ്യപ്പെട്ട ലിപി"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "സാധാരണ"
 
 #
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "ചരിഞ്ഞ"
 
 #
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "ചരിഞ്ഞത്"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "തടിച്ച"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1969,69 +1976,74 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "ലിപി തെരഞ്ഞെടുക്കുക"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "ലിപി"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "ലിപി:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "അക്ഷരസഞ്ചയത്തിന്റെ രീതി"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "അക്ഷരസഞ്ചയത്തിന്റെ രീതി:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "വലിപ്പം"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "വ്യാപ്തി:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "താരതമ്യേനയുള്ള"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
 
+#: kfontchooserwidget.ui:66
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "ലിപി"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "ലിപി:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "അക്ഷരസഞ്ചയത്തിന്റെ രീതി"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "അക്ഷരസഞ്ചയത്തിന്റെ രീതി:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "വലിപ്പം"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "വ്യാപ്തി:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "താരതമ്യേനയുള്ള"
+
 #: kfontrequester.cpp:184
 #, fuzzy
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "തെരഞ്ഞെടുക്കുക..."
 
 #: kfontrequester.cpp:190
@@ -2144,13 +2156,13 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "തെറ്റ്"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "അടയ്ക്കുക &c"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
@@ -2158,7 +2170,7 @@ msgstr "സന്ദേശം അടയ്ക്കുക"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2188,9 +2200,10 @@ msgstr "ബ്രെയിലി മാതൃകകള്‍"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&മാറ്റം വരുത്തുക..."
+msgid "&Edit…"
+msgstr "&തിരുത്തുക"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2285,12 +2298,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "അടയാളവാക്കുകളുടെ ശക്തി കാണിയ്ക്കുന്ന മീറ്റര്‍:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "തെരയുക"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "തെരയുക:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -2481,9 +2494,10 @@ msgstr "ഡാറ്റ സൂക്ഷിയ്ക്കരുത്"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "പേരു് &മാറ്റി സൂക്ഷിയ്ക്കുക..."
+msgid "Save &As…"
+msgstr "പേരു് മാറ്റി സൂക്ഷിക്കുക"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -2514,7 +2528,7 @@ msgstr ""
 #: kstandardguiitem.cpp:203
 #, fuzzy
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "പരിപാലക &ദശ..."
 
 #: kstandardguiitem.cpp:205
@@ -2634,9 +2648,10 @@ msgstr "ഒരു പടി മുമ്പോട്ടു് പോകുക"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&അച്ചടിയ്ക്കുക..."
+msgid "&Print…"
+msgstr "അച്ചടിയ്ക്കുക"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -2670,9 +2685,11 @@ msgstr "വസ്തു(ക്കള്‍) നീക്കം ചെയ്യ�
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&തുറക്കുക..."
+msgid "&Open…"
+msgstr "&തുറക്കുക"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -2712,9 +2729,10 @@ msgstr "&ചേര്‍ക്കുക"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "ക്രമീകരിയ്ക്കുക... &g"
+msgid "Confi&gure…"
+msgstr "ക്രമീകരിയ്ക്കുക"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -2792,6 +2810,47 @@ msgstr "സ്ക്രീന്‍ പരമാവധി വലിപ്പത�
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&കണ്ടുപിടിക്കുക..."
+
+#, fuzzy
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "ഇഷ്ടപ്പെട്ട..."
+
+#, fuzzy
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&മാറ്റം വരുത്തുക..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "തെരയുക"
+
+#, fuzzy
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "പേരു് &മാറ്റി സൂക്ഷിയ്ക്കുക..."
+
+#, fuzzy
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&അച്ചടിയ്ക്കുക..."
+
+#, fuzzy
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&തുറക്കുക..."
+
+#, fuzzy
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "ക്രമീകരിയ്ക്കുക... &g"
 
 #, fuzzy
 #~ msgctxt "KMessageBox|"
@@ -3767,10 +3826,6 @@ msgstr ""
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "ഗ്നു ലെസ്സര്‍ ജനറല്‍ പബ്ലിക് ലൈസന്‍സ് ലക്കം 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "സ്വന്തമായുള്ള"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -5733,9 +5788,6 @@ msgstr ""
 #~ "മാറ്റം വരുത്തിയ സന്ദേശം \n"
 #~ "വേണ്ടെന്നു് വയ്ക്കണമോ?"
 
-#~ msgid "Configure"
-#~ msgstr "ക്രമീകരിയ്ക്കുക"
-
 #~ msgid "Job"
 #~ msgstr "ജോബ്"
 
@@ -6065,9 +6117,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "കുറുക്കുവഴികള്‍ ക്രമീകരിക്കുക"
-
-#~ msgid "Print"
-#~ msgstr "അച്ചടിയ്ക്കുക"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "&സഹജവിലകളാക്കുക"
@@ -7390,9 +7439,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "&കളി"
 
-#~ msgid "&Edit"
-#~ msgstr "&തിരുത്തുക"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&മാറ്റുക"
@@ -7941,9 +7987,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - ബിസിസി: "
-
-#~ msgid "Save As"
-#~ msgstr "പേരു് മാറ്റി സൂക്ഷിക്കുക"
 
 #~ msgid "Follow"
 #~ msgstr "പിന്തുടരുക"
@@ -8932,9 +8975,6 @@ msgstr ""
 #~ msgid "Order by:"
 #~ msgstr "ക്രമത്തിലാക്കേണ്ടതു്:"
 
-#~ msgid "Search:"
-#~ msgstr "തെരയുക:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">പൂമുഖം</a>"
 
@@ -9171,10 +9211,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&തുറക്കേണ്ട പ്രയോഗം"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&തുറക്കുക"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

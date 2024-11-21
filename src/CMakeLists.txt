@@ -43,6 +43,8 @@ target_sources(KF6WidgetsAddons PRIVATE
     kcolorcombo.h
     kcolumnresizer.cpp
     kcolumnresizer.h
+    kcontextualhelpbutton.cpp
+    kcontextualhelpbutton.h
     kcursor.cpp
     kcursor.h
     kcursor_p.h
@@ -221,7 +223,7 @@ ecm_generate_export_header(KF6WidgetsAddons
     VERSION ${KF_VERSION}
     USE_VERSION_HEADER
     DEPRECATED_BASE_VERSION 0
-    DEPRECATION_VERSIONS
+    DEPRECATION_VERSIONS 6.5
     EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
 )
 
@@ -238,6 +240,7 @@ ecm_generate_headers(KWidgetsAddons_HEADERS
   KCollapsibleGroupBox
   KColorButton
   KColumnResizer
+  KContextualHelpButton
   KDateComboBox
   KDatePicker
   KDatePickerPopup

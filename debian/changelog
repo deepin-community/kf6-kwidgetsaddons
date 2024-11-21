@@ -1,3 +1,56 @@
+kf6-kwidgetsaddons (6.6.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.6.0).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from build for 6.6.0.
+  * Revert upstream commit making the font selection dialog crash.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 06 Sep 2024 23:09:00 +0200
+
+kf6-kwidgetsaddons (6.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * 'acc' autopkgtest: set -std=c++17, needed when using Qt 6.
+  * CI: update/simplify configuration.
+  * Update symbols file from the logs of buildds.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 18 Aug 2024 11:45:02 +0200
+
+kf6-kwidgetsaddons (6.5.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.5.0).
+  * Update build-deps and deps with the info from cmake.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Aug 2024 23:22:00 +0200
+
+kf6-kwidgetsaddons (6.4.1-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.4.1).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 19 Jul 2024 16:00:22 +0200
+
+kf6-kwidgetsaddons (6.4.0-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.4.0).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from build for 6.4.0.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 19 Jul 2024 09:24:13 +0200
+
+kf6-kwidgetsaddons (6.3.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.0).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from buildlogs.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 09 Jun 2024 14:54:33 +0200
+
 kf6-kwidgetsaddons (6.0.0-2) experimental; urgency=medium
 
   * Team upload.

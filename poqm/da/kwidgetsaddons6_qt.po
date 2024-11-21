@@ -1062,8 +1062,11 @@ msgid "Symbols for Legacy Computing"
 msgstr "Symboler for historisk computing"
 
 #: kcharselect.cpp:391
+#, fuzzy
+#| msgctxt "KCharSelect|@info:placeholder"
+#| msgid "Enter a search term or character..."
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Indtast søgeudtryk eller -tegn..."
 
 #: kcharselect.cpp:393
@@ -1072,9 +1075,12 @@ msgid "Enter a search term or character here"
 msgstr "Indtast søgeudtryk eller -tegn her"
 
 #: kcharselect.cpp:400
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Find..."
+msgid "&Find…"
+msgstr "&Find"
 
 #: kcharselect.cpp:424
 msgctxt "KCharSelect|@action:button Goes to previous character"
@@ -1460,9 +1466,20 @@ msgid "Unknown"
 msgstr "Ukendt"
 
 #: kcolorcombo.cpp:333
+#, fuzzy
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Brugerdefineret..."
+msgid "Custom…"
+msgstr "Tilpasset"
+
+#: kcontextualhelpbutton.cpp:80
+#, fuzzy
+#| msgctxt "KPasswordDialog|"
+#| msgid "Show Contextual Help"
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "Vis kontekstbaseret hjælp"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1653,42 +1670,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Flyt &ned"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Ønsket skrifttype"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normal"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Kursiv"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Skæv"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Fed"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog ÆØÅæøå"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1699,47 +1716,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Vælg skrifttype"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Skrifttype"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Skrifttype:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Skrifttypestil"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Skrifttypestil:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Størrelse"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Størrelse:"
-
-#: kfontchooserwidget.ui:91
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Relativ"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -1748,14 +1735,52 @@ msgstr ""
 "Denne eksempeltekst illustrerer de nuværende indstillinger. Du kan redigere "
 "den for at teste specielle tegn."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "Vis kun monospace-skrifttyper"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Skrifttype"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Skrifttype:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Skrifttypestil"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Skrifttypestil:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Størrelse"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Størrelse:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Relativ"
+
 #: kfontrequester.cpp:184
+#, fuzzy
+#| msgctxt "KFontRequester|@info:tooltip"
+#| msgid "Choose font..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Vælg skrifttype..."
 
 #: kfontrequester.cpp:190
@@ -1859,19 +1884,22 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Fejl"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Luk"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Luk besked"
 
 #: kmimetypechooser.cpp:88
+#, fuzzy
+#| msgctxt "KMimeTypeChooser|@info:placeholder"
+#| msgid "Search for file type or filename pattern..."
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr "Søg efter filtype- eller filnavnmønster..."
 
 #: kmimetypechooser.cpp:89
@@ -1895,9 +1923,11 @@ msgid "Patterns"
 msgstr "Mønstre"
 
 #: kmimetypechooser.cpp:126
+#, fuzzy
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "R&edigér..."
+msgid "&Edit…"
+msgstr "&Redigér"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -1997,12 +2027,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Styrke&måling af adgangskode:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Søg"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Søg:"
 
 #: kpassworddialog.cpp:52
 msgctxt "KPasswordDialog|@title:window"
@@ -2169,9 +2199,11 @@ msgid "Do not save data"
 msgstr "Gem ikke data"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Gem &som..."
+msgid "Save &As…"
+msgstr "Gem som"
 
 #: kstandardguiitem.cpp:186
 msgctxt "KStandardGuiItem|"
@@ -2200,8 +2232,11 @@ msgstr ""
 "Brug dette til at prøve andre indstillinger."
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "Administrator&tilstand..."
 
 #: kstandardguiitem.cpp:205
@@ -2306,9 +2341,11 @@ msgid "Go forward one step"
 msgstr "Gå et trin frem"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Udskriv..."
+msgid "&Print…"
+msgstr "Udskriv"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -2336,9 +2373,12 @@ msgid "Delete item(s)"
 msgstr "Slet elementer"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "Å&bn..."
+msgid "&Open…"
+msgstr "Å&bn"
 
 #: kstandardguiitem.cpp:301
 msgctxt "KStandardGuiItem|"
@@ -2371,9 +2411,11 @@ msgid "&Insert"
 msgstr "&Indsæt"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "&Indstil..."
+msgid "Confi&gure…"
+msgstr "Indstil"
 
 #: kstandardguiitem.cpp:330
 msgctxt "KStandardGuiItem|"
@@ -2441,6 +2483,40 @@ msgstr "Fuldskærm"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Vis vinduet i fuld skærm"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Find..."
+
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Brugerdefineret..."
+
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "R&edigér..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Søg"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Gem &som..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Udskriv..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "Å&bn..."
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "&Indstil..."
 
 #~ msgctxt "KFontChooser|@info:tooltip"
 #~ msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -3532,10 +3608,6 @@ msgstr "Vis vinduet i fuld skærm"
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU Lesser General Public License Version 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Tilpasset"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -5756,9 +5828,6 @@ msgstr "Vis vinduet i fuld skærm"
 #~ "Luk og kassér den\n"
 #~ "redigerede besked?"
 
-#~ msgid "Configure"
-#~ msgstr "Indstil"
-
 #~ msgid "Job"
 #~ msgstr "Job"
 
@@ -6118,9 +6187,6 @@ msgstr "Vis vinduet i fuld skærm"
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Indstil genveje"
-
-#~ msgid "Print"
-#~ msgstr "Udskriv"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "Gendan standardindstillinger"
@@ -7667,9 +7733,6 @@ msgstr "Vis vinduet i fuld skærm"
 #~ msgid "&Game"
 #~ msgstr "&Spil"
 
-#~ msgid "&Edit"
-#~ msgstr "&Redigér"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&Flyt"
@@ -8390,9 +8453,6 @@ msgstr "Vis vinduet i fuld skærm"
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC: "
-
-#~ msgid "Save As"
-#~ msgstr "Gem som"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -9658,9 +9718,6 @@ msgstr "Vis vinduet i fuld skærm"
 #~ msgid "Order by:"
 #~ msgstr "Sortér efter:"
 
-#~ msgid "Search:"
-#~ msgstr "Søg:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">Websiden</a>"
 
@@ -9949,10 +10006,6 @@ msgstr "Vis vinduet i fuld skærm"
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "Å&bn med"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "Å&bn"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

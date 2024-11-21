@@ -1640,7 +1640,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "ป้อนคำหรือตัวอักษรที่จะใช้ค้นหาได้ที่นี่"
 
 #: kcharselect.cpp:393
@@ -1652,10 +1652,10 @@ msgstr "ป้อนคำหรือตัวอักษรที่จะใ
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "ค้น&หา..."
+msgid "&Find…"
+msgstr "&ค้นหา"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -2196,11 +2196,16 @@ msgstr "ไม่รู้จัก"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "กำหนดเอง..."
+msgid "Custom…"
+msgstr "กำหนดเอง"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 #, fuzzy
@@ -2419,14 +2424,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "ย้าย&ลง"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "แบบอักษรที่ต้องการ"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2434,7 +2439,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "ธรรมดา"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2442,7 +2447,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "ตัวเอียง"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2450,7 +2455,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "ตัวเฉียง"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2458,12 +2463,12 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "ตัวหนา"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
@@ -2473,7 +2478,7 @@ msgstr ""
 "เป็นมนุษย์สุดประเสริฐเลิศคุณค่า กว่าบรรดาฝูงสัตว์เดรัจฉาน\n"
 "จงฝ่าฟันพัฒนาวิชาการ อย่าล้างผลาญฤๅเข่นฆ่าบีฑาใคร"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2488,67 +2493,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "เลือกแบบอักษร"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "แบบอักษร"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "แบบอักษร:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "ลักษณะแบบอักษร"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "ลักษณะแบบอักษร:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "ขนาด"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgctxt "@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "ขนาด:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "ขนาดสัมพัทธ์"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
@@ -2561,16 +2516,71 @@ msgstr ""
 "นี่เป็นข้อความตัวอย่างที่แสดงให้เห็นลักษณะการตั้งค่าในปัจจุบัน "
 "คุณอาจจะแก้ไขมันเพื่อทดสอบอักขระพิเศษก็ได้เช่นกัน"
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "แบบอักษร"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "แบบอักษร:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "ลักษณะแบบอักษร"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "ลักษณะแบบอักษร:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "ขนาด"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgctxt "@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "ขนาด:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "ขนาดสัมพัทธ์"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "เลือก..."
 
 #: kfontrequester.cpp:190
@@ -2706,14 +2716,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "ผิดพลาด"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&ปิด"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2722,7 +2732,7 @@ msgstr "ปิดข้อความ"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2756,10 +2766,10 @@ msgstr "รูปแบบอักษรเบรลล์"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "แ&ก้ไข..."
+msgid "&Edit…"
+msgstr "แ&ก้ไข"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2889,12 +2899,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "ระดับความแข็งแกร่งของรหัสผ่าน:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-#| msgid "Search"
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "ค้นหา"
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "ค้นหา:"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -3111,10 +3121,10 @@ msgstr "ไม่ต้องบันทึกข้อมูล"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "บัน&ทึกเป็น..."
+msgid "Save &As…"
+msgstr "บันทึกเป็น"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -3156,7 +3166,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "โ&หมดผู้บริหารระบบ..."
 
 #: kstandardguiitem.cpp:205
@@ -3303,10 +3313,10 @@ msgstr "ทำต่อไปหนึ่งขั้น"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&พิมพ์..."
+msgid "&Print…"
+msgstr "พิมพ์"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -3345,10 +3355,11 @@ msgstr "ลบรายการ"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "เ&ปิด..."
+msgid "&Open…"
+msgstr "เ&ปิด"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -3395,10 +3406,10 @@ msgstr "แ&ทรก"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "ป&รับแต่ง..."
+msgid "Confi&gure…"
+msgstr "ปรับแต่งค่า"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -3487,6 +3498,55 @@ msgstr "เต็มหน้าจอ"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "ค้น&หา..."
+
+#, fuzzy
+#~| msgctxt "Custom color"
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "กำหนดเอง..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "แ&ก้ไข..."
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "ค้นหา"
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "บัน&ทึกเป็น..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&พิมพ์..."
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "เ&ปิด..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "ป&รับแต่ง..."
 
 #, fuzzy
 #~| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
@@ -4628,10 +4688,6 @@ msgstr ""
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "สัญญาอนุญาตแบบ GNU - LGPL รุ่น 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "กำหนดเอง"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -6784,9 +6840,6 @@ msgstr ""
 #~ "edited message?"
 #~ msgstr "ปิดและละทิ้งข้อความที่ได้แก้ไขไปหรือไม่ ?"
 
-#~ msgid "Configure"
-#~ msgstr "ปรับแต่งค่า"
-
 #~ msgid "Job"
 #~ msgstr "งานพิมพ์"
 
@@ -7142,9 +7195,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "ปรับแต่งปุ่มพิมพ์ลัด"
-
-#~ msgid "Print"
-#~ msgstr "พิมพ์"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "กลับไปใช้ค่าปริยาย"
@@ -8648,9 +8698,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "เ&กม"
 
-#~ msgid "&Edit"
-#~ msgstr "แ&ก้ไข"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&ย้าย"
@@ -9356,9 +9403,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - สำเนาถึง (ซ่อน): "
-
-#~ msgid "Save As"
-#~ msgstr "บันทึกเป็น"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -10600,9 +10644,6 @@ msgstr ""
 #~ msgid "Order by:"
 #~ msgstr "เรียงลำดับตาม:"
 
-#~ msgid "Search:"
-#~ msgstr "ค้นหา:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org\">หน้าเว็บหลัก</a>"
 
@@ -10881,10 +10922,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "เ&ปิดด้วย"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "เ&ปิด"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

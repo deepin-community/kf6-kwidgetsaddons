@@ -6,26 +6,44 @@
 */
 
 #include "kjobwidgets.h"
+#include <QPointer>
 #include <QVariant>
 #include <QWidget>
 #include <QWindow>
 
 void KJobWidgets::setWindow(QObject *job, QWidget *widget)
 {
-    job->setProperty("widget", QVariant::fromValue(widget));
+    QPointer<QWidget> p = widget;
+    job->setProperty("widget", QVariant::fromValue(p));
 
-    QWindow *window = widget ? widget->windowHandle() : nullptr;
+    QPointer<QWindow> windowHandle = widget ? widget->windowHandle() : nullptr;
+    job->setProperty("window", QVariant::fromValue(windowHandle));
+    if (windowHandle) {
+        job->setProperty("window-id", QVariant::fromValue(windowHandle->winId()));
+    }
+}
 
+#if KWIDGETSADDONS_BUILD_DEPRECATED_SINCE(6, 5)
+void KJobWidgets::setWindowHandle(QObject *job, QWindow *window)
+{
     job->setProperty("window", QVariant::fromValue(window));
     if (window) {
         job->setProperty("window-id", QVariant::fromValue(window->winId()));
     }
 }
+#endif
 
 QWidget *KJobWidgets::window(QObject *job)
 {
-    return job->property("widget").value<QWidget *>();
+    return job->property("widget").value<QPointer<QWidget>>();
 }
+
+#if KWIDGETSADDONS_BUILD_DEPRECATED_SINCE(6, 5)
+QWindow *KJobWidgets::windowHandle(QObject *job)
+{
+    return job->property("window").value<QPointer<QWindow>>();
+}
+#endif
 
 // duplicated from kwindowsystem
 static int timestampCompare(unsigned long time1_, unsigned long time2_) // like strcmp()

@@ -1449,7 +1449,7 @@ msgstr ""
 #: kcharselect.cpp:391
 #, fuzzy
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Chwiliad Rhyngrwyd"
 
 #: kcharselect.cpp:393
@@ -1459,9 +1459,9 @@ msgstr ""
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgid "&Find..."
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
+msgid "&Find…"
 msgstr "&Canfod"
 
 #: kcharselect.cpp:424
@@ -1938,10 +1938,14 @@ msgstr "Anhysbys"
 
 #: kcolorcombo.cpp:333
 #, fuzzy
-#| msgid "Custom..."
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Addasu ..."
+msgid "Custom…"
+msgstr "A&ddasu"
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -2148,14 +2152,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Symu&d i lawr"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Wynebfath a Ddymunwyd"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2163,14 +2167,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Arferol"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 #, fuzzy
 #| msgid "Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Italig"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -2178,14 +2182,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Lletraws"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 #, fuzzy
 #| msgid "Bold"
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Trwm"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Book Oblique"
@@ -2193,14 +2197,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Llyfr Lletraws"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Duw a'm gwaredo, ni allaf ddianc rhag hon"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, fuzzy, qt-format
 #| msgid "%1%"
 msgctxt "KFontChooser|@item Font style"
@@ -2214,63 +2218,19 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Dewis Wynebfath"
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Wynebfath"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Wynebfath:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Ardull wynebfath"
-
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Ardull wynebfath:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Maint"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Maint:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr " Cymharol"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 #, fuzzy
 #| msgid "Simple"
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "Syml"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
@@ -2283,16 +2243,65 @@ msgstr ""
 "Mae'r testun engraifft yma yn dangos y gosodiadau cyfredol. Cewch ei golygu "
 "er mwyn arbrofi llythrennau arbennig."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Wynebfath"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Wynebfath:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Ardull wynebfath"
+
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Ardull wynebfath:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Maint"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Maint:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr " Cymharol"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Dewis..."
 
 #: kfontrequester.cpp:190
@@ -2430,14 +2439,14 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Gwall"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Cau"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
@@ -2446,7 +2455,7 @@ msgstr "Cau Neges"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2478,10 +2487,10 @@ msgstr " Braille"
 
 #: kmimetypechooser.cpp:126
 #, fuzzy
-#| msgid "&Edit..."
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&Golygu..."
+msgid "&Edit…"
+msgstr "&Golygu"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -2612,11 +2621,11 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Faint mor gryf yw'r cyfrinair:"
 
-#: kpageview.cpp:449
+#: kpageview.cpp:510
 #, fuzzy
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Chwilio"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "C&hwilio"
 
 #: kpassworddialog.cpp:52
 #, fuzzy
@@ -2821,10 +2830,10 @@ msgstr "Peidio a chadw'r data"
 
 #: kstandardguiitem.cpp:184
 #, fuzzy
-#| msgid "Save &As..."
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Cadw &Fel..."
+msgid "Save &As…"
+msgstr "Cadw Fel"
 
 #: kstandardguiitem.cpp:186
 #, fuzzy
@@ -2863,7 +2872,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "Modd G&weinyddwr..."
 
 #: kstandardguiitem.cpp:205
@@ -3002,10 +3011,10 @@ msgstr "Ewch cam ymlaen"
 
 #: kstandardguiitem.cpp:276
 #, fuzzy
-#| msgid "&Print..."
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "&Argraffu"
+msgid "&Print…"
+msgstr "Argraffu"
 
 #: kstandardguiitem.cpp:278
 #, fuzzy
@@ -3044,10 +3053,9 @@ msgstr " Dileu eitem(au)"
 
 #: kstandardguiitem.cpp:299
 #, fuzzy
-#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Agor..."
+msgid "&Open…"
+msgstr "&Agor"
 
 #: kstandardguiitem.cpp:301
 #, fuzzy
@@ -3093,10 +3101,10 @@ msgstr "&Mewnosod"
 
 #: kstandardguiitem.cpp:325
 #, fuzzy
-#| msgid "Confi&gure..."
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "Ffurf&weddu..."
+msgid "Confi&gure…"
+msgstr "Ffurfweddu"
 
 #: kstandardguiitem.cpp:330
 #, fuzzy
@@ -3182,6 +3190,53 @@ msgstr "Modd Sgrîn Llawn"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Canfod"
+
+#, fuzzy
+#~| msgid "Custom..."
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Addasu ..."
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&Golygu..."
+
+#, fuzzy
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Chwilio"
+
+#, fuzzy
+#~| msgid "Save &As..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Cadw &Fel..."
+
+#, fuzzy
+#~| msgid "&Print..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "&Argraffu"
+
+#, fuzzy
+#~| msgid "&Open..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Agor..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "Ffurf&weddu..."
 
 #, fuzzy
 #~| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
@@ -4150,11 +4205,6 @@ msgstr ""
 #~ msgctxt "@item license (short name)"
 #~ msgid "LGPL v3"
 #~ msgstr "LGPL"
-
-#, fuzzy
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "A&ddasu"
 
 #, fuzzy
 #~ msgctxt "@item license"
@@ -6116,9 +6166,6 @@ msgstr ""
 #~ "Cau a taflu'r neges\n"
 #~ " a olygwyd?"
 
-#~ msgid "Configure"
-#~ msgstr "Ffurfweddu"
-
 #, fuzzy
 #~ msgid "Job"
 #~ msgstr "Jom"
@@ -6422,9 +6469,6 @@ msgstr ""
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Ffurfweddu Byrlwybrau"
-
-#~ msgid "Print"
-#~ msgstr "Argraffu"
 
 #, fuzzy
 #~ msgid "Reset to Defaults"
@@ -7941,9 +7985,6 @@ msgstr ""
 #~ msgid "&Game"
 #~ msgstr "&Gêm"
 
-#~ msgid "&Edit"
-#~ msgstr "&Golygu"
-
 #, fuzzy
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
@@ -8632,9 +8673,6 @@ msgstr ""
 
 #~ msgid " - BCC: "
 #~ msgstr " - BCC:"
-
-#~ msgid "Save As"
-#~ msgstr "Cadw Fel"
 
 #, fuzzy
 #~ msgid ""
@@ -9488,10 +9526,6 @@ msgstr ""
 #~ msgstr "Arsefydlu"
 
 #, fuzzy
-#~ msgid "Search:"
-#~ msgstr "C&hwilio"
-
-#, fuzzy
 #~ msgid "Become a Fan"
 #~ msgstr "Facs Cartref"
 
@@ -9718,11 +9752,6 @@ msgstr ""
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Agor Gyda..."
-
-#, fuzzy
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Agor"
 
 #, fuzzy
 #~ msgctxt "@label File name"

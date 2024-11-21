@@ -11,7 +11,7 @@
 # Joonas Niilola <juippis@roskakori.org>, 2006.
 # Mikko Piippo <piippo@cc.helsinki.fi>, 2007.
 # Teemu Rytilahti <tpr@d5k.net>, 2008.
-# Tommi Nieminen <translator@legisign.org>, 2009, 2010, 2011, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
+# Tommi Nieminen <translator@legisign.org>, 2009, 2010, 2011, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
 # Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2006, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
 #
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2023-12-11 18:04+0200\n"
+"PO-Revision-Date: 2024-02-14 18:52+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -1077,8 +1077,11 @@ msgid "Symbols for Legacy Computing"
 msgstr "Vanhentuneet ATK-symbolit"
 
 #: kcharselect.cpp:391
+#, fuzzy
+#| msgctxt "KCharSelect|@info:placeholder"
+#| msgid "Enter a search term or character..."
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Syötä hakusana tai merkki…"
 
 #: kcharselect.cpp:393
@@ -1087,9 +1090,12 @@ msgid "Enter a search term or character here"
 msgstr "Syötä tähän hakusana tai merkki"
 
 #: kcharselect.cpp:400
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Etsi…"
+msgid "&Find…"
+msgstr "&Etsi"
 
 #: kcharselect.cpp:424
 msgctxt "KCharSelect|@action:button Goes to previous character"
@@ -1472,9 +1478,20 @@ msgid "Unknown"
 msgstr "Tuntematon"
 
 #: kcolorcombo.cpp:333
+#, fuzzy
+#| msgctxt "@item license"
+#| msgid "Custom"
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
-msgstr "Mukautettu…"
+msgid "Custom…"
+msgstr "Oma"
+
+#: kcontextualhelpbutton.cpp:80
+#, fuzzy
+#| msgctxt "KPasswordDialog|"
+#| msgid "Show Contextual Help"
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "Näytä kontekstiohje"
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1638,42 +1655,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Siirrä &alemmas"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Pyydetty fontti"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Tavallinen"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Kursiivi"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Kallistettu"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Lihavoitu"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Lihavoitu tiivistetty vino"
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö."
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1684,47 +1701,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Valitse fontti"
 
-#: kfontchooserwidget.ui:25
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Fontti"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Fontti:"
-
-#: kfontchooserwidget.ui:50
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Fonttityyli"
-
-#: kfontchooserwidget.ui:57
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Fonttityyli:"
-
-#: kfontchooserwidget.ui:75
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Koko"
-
-#: kfontchooserwidget.ui:82
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Koko:"
-
-#: kfontchooserwidget.ui:91
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "Suhteellinen"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr "Näyte:"
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 msgctxt "KFontChooserWidget|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
@@ -1733,14 +1720,52 @@ msgstr ""
 "Tämä näyteteksti havainnollistaa nykyisiä asetuksia. Voit kokeilla "
 "erikoismerkkejä muokkaamalla tekstiä."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr "Näytä vain tasalevyiset fontit"
 
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Fontti"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Fontti:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Fonttityyli"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Fonttityyli:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Koko"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Koko:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Suhteellinen"
+
 #: kfontrequester.cpp:184
+#, fuzzy
+#| msgctxt "KFontRequester|@info:tooltip"
+#| msgid "Choose font..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Valitse fontti…"
 
 #: kfontrequester.cpp:190
@@ -1844,19 +1869,22 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Virhe"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Sulje"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Sulje viesti"
 
 #: kmimetypechooser.cpp:88
+#, fuzzy
+#| msgctxt "KMimeTypeChooser|@info:placeholder"
+#| msgid "Search for file type or filename pattern..."
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr "Etsi tiedoston tyyppiä tai tiedostonimikuviota…"
 
 #: kmimetypechooser.cpp:89
@@ -1880,9 +1908,11 @@ msgid "Patterns"
 msgstr "Kuviot"
 
 #: kmimetypechooser.cpp:126
+#, fuzzy
+#| msgid "&Edit"
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
-msgstr "&Muokkaa…"
+msgid "&Edit…"
+msgstr "&Muokkaa"
 
 #: kmimetypechooser.cpp:141
 msgctxt "KMimeTypeChooser|@info:tooltip"
@@ -1976,10 +2006,12 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Salasanan vahvuus&mittari:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
-msgstr "Etsi…"
+#: kpageview.cpp:510
+#, fuzzy
+#| msgid "Search:"
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "Haku:"
 
 #: kpassworddialog.cpp:52
 msgctxt "KPasswordDialog|@title:window"
@@ -2037,20 +2069,14 @@ msgid "Change the visibility of the password"
 msgstr "Vaihda salasanan näkyvyyttä"
 
 #: kpasswordlineedit.cpp:87
-#, fuzzy
-#| msgctxt "KPasswordDialog|@title:window"
-#| msgid "Password"
 msgctxt "QObject|@action:inmenu"
 msgid "Show Password"
-msgstr "Salasana"
+msgstr "Näytä salasana"
 
 #: kpasswordlineedit.cpp:88
-#, fuzzy
-#| msgctxt "KPasswordDialog|@title:window"
-#| msgid "Password"
 msgctxt "QObject|@action:inmenu"
 msgid "Hide Password"
-msgstr "Salasana"
+msgstr "Piilota salasana"
 
 #: kpixmapregionselectordialog.cpp:56
 msgctxt "KPixmapRegionSelectorDialog|@title:window"
@@ -2146,9 +2172,11 @@ msgid "Do not save data"
 msgstr "Älä tallenna tietoja"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgid "Save As"
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
-msgstr "Tallenna &nimellä…"
+msgid "Save &As…"
+msgstr "Tallenna nimellä"
 
 #: kstandardguiitem.cpp:186
 msgctxt "KStandardGuiItem|"
@@ -2177,8 +2205,11 @@ msgstr ""
 "Tällä painikkeella voit kokeilla asetuksia."
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "&Pääkäyttäjän tila…"
 
 #: kstandardguiitem.cpp:205
@@ -2282,9 +2313,11 @@ msgid "Go forward one step"
 msgstr "Siirry yksi askel eteenpäin"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgid "Print"
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
-msgstr "T&ulosta…"
+msgid "&Print…"
+msgstr "Tulosta"
 
 #: kstandardguiitem.cpp:278
 msgctxt "KStandardGuiItem|"
@@ -2312,9 +2345,12 @@ msgid "Delete item(s)"
 msgstr "Poista kohteet"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "@label:button"
+#| msgid "&Open"
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
-msgstr "&Avaa…"
+msgid "&Open…"
+msgstr "&Avaa"
 
 #: kstandardguiitem.cpp:301
 msgctxt "KStandardGuiItem|"
@@ -2347,9 +2383,11 @@ msgid "&Insert"
 msgstr "&Lisää"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgid "Configure"
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
-msgstr "&Asetukset…"
+msgid "Confi&gure…"
+msgstr "Asetukset"
 
 #: kstandardguiitem.cpp:330
 msgctxt "KStandardGuiItem|"
@@ -2417,6 +2455,38 @@ msgstr "Koko näyttö"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Näytä ikkuna koko näytön tilassa"
+
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Etsi…"
+
+#~ msgctxt "KColorCombo|@item:inlistbox Custom color"
+#~ msgid "Custom..."
+#~ msgstr "Mukautettu…"
+
+#~ msgctxt "KMimeTypeChooser|@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "&Muokkaa…"
+
+#~ msgctxt "KPageView|"
+#~ msgid "Search..."
+#~ msgstr "Etsi…"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Save &As..."
+#~ msgstr "Tallenna &nimellä…"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Print..."
+#~ msgstr "T&ulosta…"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "&Open..."
+#~ msgstr "&Avaa…"
+
+#~ msgctxt "KStandardGuiItem|"
+#~ msgid "Confi&gure..."
+#~ msgstr "&Asetukset…"
 
 #~ msgctxt "KFontChooserWidget|"
 #~ msgid "KFontChooserWidget"
@@ -3513,10 +3583,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU Lesser General Public License (LGPL), versio 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Oma"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
@@ -5733,9 +5799,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 #~ "Sulje ja hylkää\n"
 #~ "muokattu viesti?"
 
-#~ msgid "Configure"
-#~ msgstr "Asetukset"
-
 #~ msgid "Job"
 #~ msgstr "Työ"
 
@@ -6094,9 +6157,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 
 #~ msgid "Configure Shortcuts"
 #~ msgstr "Muokkaa pikanäppäimiä"
-
-#~ msgid "Print"
-#~ msgstr "Tulosta"
 
 #~ msgid "Reset to Defaults"
 #~ msgstr "Palauta oletukset"
@@ -7639,9 +7699,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 #~ msgid "&Game"
 #~ msgstr "&Peli"
 
-#~ msgid "&Edit"
-#~ msgstr "&Muokkaa"
-
 #~ msgctxt "@title:menu Game move"
 #~ msgid "&Move"
 #~ msgstr "&Siirto"
@@ -8362,9 +8419,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 
 #~ msgid " - BCC: "
 #~ msgstr " - Piilokopio: "
-
-#~ msgid "Save As"
-#~ msgstr "Tallenna nimellä"
 
 #~ msgid ""
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
@@ -9626,9 +9680,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 #~ msgid "Order by:"
 #~ msgstr "Järjestys:"
 
-#~ msgid "Search:"
-#~ msgstr "Haku:"
-
 #~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
 #~ msgstr "<a href=\"http://opendesktop.org/\">Kotisivu</a>"
 
@@ -9916,10 +9967,6 @@ msgstr "Näytä ikkuna koko näytön tilassa"
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Avaa ohjelmalla"
-
-#~ msgctxt "@label:button"
-#~ msgid "&Open"
-#~ msgstr "&Avaa"
 
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"

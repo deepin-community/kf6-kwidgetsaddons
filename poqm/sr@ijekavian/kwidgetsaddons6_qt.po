@@ -1092,7 +1092,7 @@ msgstr ""
 #| msgctxt "KCharSelect|"
 #| msgid "Enter a search term or character here"
 msgctxt "KCharSelect|@info:placeholder"
-msgid "Enter a search term or character..."
+msgid "Enter a search term or character…"
 msgstr "Унесите израз или знак за тражење"
 
 #: kcharselect.cpp:393
@@ -1105,11 +1105,11 @@ msgstr "Унесите израз или знак за тражење"
 
 #: kcharselect.cpp:400
 #, fuzzy
-#| msgctxt "KCharSelect|"
-#| msgid "&Find..."
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Find"
 msgctxt "KCharSelect|@action"
-msgid "&Find..."
-msgstr "&Нађи..."
+msgid "&Find…"
+msgstr "&Нађи"
 
 #: kcharselect.cpp:424
 #, fuzzy
@@ -1529,8 +1529,13 @@ msgstr "непознато"
 #| msgctxt "KColorCombo|Custom color"
 #| msgid "Custom..."
 msgctxt "KColorCombo|@item:inlistbox Custom color"
-msgid "Custom..."
+msgid "Custom…"
 msgstr "Посебна..."
+
+#: kcontextualhelpbutton.cpp:80
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr ""
 
 #: kdatecombobox.cpp:187
 msgctxt "KDateComboBox|@info"
@@ -1770,7 +1775,7 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Помјери на&доље"
 
-#: kfontchooser.cpp:152
+#: kfontchooser.cpp:164
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid "Requested Font"
@@ -1778,7 +1783,7 @@ msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Тражени фонт"
 
-#: kfontchooser.cpp:199
+#: kfontchooser.cpp:211
 #, fuzzy
 #| msgctxt "KFontChooser|QFontDatabase"
 #| msgid "Normal"
@@ -1786,34 +1791,34 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "нормални"
 
-#: kfontchooser.cpp:200 kfontchooser.cpp:450
+#: kfontchooser.cpp:212 kfontchooser.cpp:472
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "курзивни"
 
-#: kfontchooser.cpp:201 kfontchooser.cpp:451
+#: kfontchooser.cpp:213 kfontchooser.cpp:473
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "искошени"
 
-#: kfontchooser.cpp:202
+#: kfontchooser.cpp:214
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "подебљани"
 
-#: kfontchooser.cpp:203
+#: kfontchooser.cpp:215
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:247
+#: kfontchooser.cpp:269
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 "Љубазни фењерџија чађавог лица хоће да ми покаже штос\n"
 "Ljubazni fenjerdžija čađavog lica hoće da mi pokaže štos"
 
-#: kfontchooser.cpp:435
+#: kfontchooser.cpp:457
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1828,69 +1833,17 @@ msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Изаберите мјесец."
 
-#: kfontchooserwidget.ui:25
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Font"
+#: kfontchooserwidget.ui:21
 msgctxt "KFontChooserWidget|"
-msgid "Font"
-msgstr "Фонт"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr ""
 
-#: kfontchooserwidget.ui:32
-#, fuzzy
-#| msgctxt "KFontChooser|@label"
-#| msgid "Font:"
-msgctxt "KFontChooserWidget|"
-msgid "Font:"
-msgstr "Фонт:"
-
-#: kfontchooserwidget.ui:50
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Font style"
-msgctxt "KFontChooserWidget|"
-msgid "Font style"
-msgstr "Стил фонта"
-
-# rewrite-msgid: /Font//
-#: kfontchooserwidget.ui:57
-#, fuzzy
-#| msgctxt "KFontChooser|"
-#| msgid "Font style:"
-msgctxt "KFontChooserWidget|"
-msgid "Font style:"
-msgstr "Стил:"
-
-#: kfontchooserwidget.ui:75
-#, fuzzy
-#| msgctxt "KFontChooser|@option:check"
-#| msgid "Size"
-msgctxt "KFontChooserWidget|"
-msgid "Size"
-msgstr "Величина"
-
-#: kfontchooserwidget.ui:82
-#, fuzzy
-#| msgctxt "KFontChooser|@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooserWidget|"
-msgid "Size:"
-msgstr "Величина:"
-
-#: kfontchooserwidget.ui:91
-#, fuzzy
-#| msgctxt "KFontChooser|@item font size"
-#| msgid "Relative"
-msgctxt "KFontChooserWidget|"
-msgid "Relative"
-msgstr "релативна"
-
-#: kfontchooserwidget.ui:117
+#: kfontchooserwidget.ui:31
 msgctxt "KFontChooserWidget|"
 msgid "Sample:"
 msgstr ""
 
-#: kfontchooserwidget.ui:127
+#: kfontchooserwidget.ui:41
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid ""
@@ -1904,17 +1857,74 @@ msgstr ""
 "Овај исјечак текста илуструје тренутне поставке. Можете га измијенити како "
 "бисте испробали знакове који вас посебно занимају."
 
-#: kfontchooserwidget.ui:137
+#: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
 msgid "Show only monospaced fonts"
 msgstr ""
+
+#: kfontchooserwidget.ui:66
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Фонт"
+
+#: kfontchooserwidget.ui:73
+#, fuzzy
+#| msgctxt "KFontChooser|@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Фонт:"
+
+#: kfontchooserwidget.ui:91
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Стил фонта"
+
+# rewrite-msgid: /Font//
+#: kfontchooserwidget.ui:98
+#, fuzzy
+#| msgctxt "KFontChooser|"
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Стил:"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Величина"
+
+#: kfontchooserwidget.ui:123
+#, fuzzy
+#| msgctxt "KFontChooser|@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Величина:"
+
+#: kfontchooserwidget.ui:132
+#, fuzzy
+#| msgctxt "KFontChooser|@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "релативна"
 
 #: kfontrequester.cpp:184
 #, fuzzy
 #| msgctxt "KFontRequester|"
 #| msgid "Choose..."
 msgctxt "KFontRequester|@info:tooltip"
-msgid "Choose font..."
+msgid "Choose font…"
 msgstr "Изабери..."
 
 #: kfontrequester.cpp:190
@@ -2047,7 +2057,7 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Грешка"
 
-#: kmessagewidget.cpp:80
+#: kmessagewidget.cpp:81
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "&Close"
@@ -2055,7 +2065,7 @@ msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Затвори"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:82
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "Close message"
@@ -2065,7 +2075,7 @@ msgstr "Затвори поруку"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
-msgid "Search for file type or filename pattern..."
+msgid "Search for file type or filename pattern…"
 msgstr ""
 
 #: kmimetypechooser.cpp:89
@@ -2102,7 +2112,7 @@ msgstr "Обрасци"
 #| msgctxt "KMimeTypeChooser|"
 #| msgid "&Edit..."
 msgctxt "KMimeTypeChooser|@action:button"
-msgid "&Edit..."
+msgid "&Edit…"
 msgstr "&Уреди..."
 
 #: kmimetypechooser.cpp:141
@@ -2222,9 +2232,9 @@ msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "&Мјерач јачине лозинке:"
 
-#: kpageview.cpp:449
-msgctxt "KPageView|"
-msgid "Search..."
+#: kpageview.cpp:510
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
 msgstr ""
 
 #: kpassworddialog.cpp:52
@@ -2436,8 +2446,11 @@ msgid "Do not save data"
 msgstr "Немој да сачуваш податке"
 
 #: kstandardguiitem.cpp:184
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Save &As..."
 msgctxt "KStandardGuiItem|"
-msgid "Save &As..."
+msgid "Save &As…"
 msgstr "Сачувај &као..."
 
 #: kstandardguiitem.cpp:186
@@ -2467,8 +2480,11 @@ msgstr ""
 "Користите ово када испробавате различите вриједности."
 
 #: kstandardguiitem.cpp:203
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Administrator &Mode..."
 msgctxt "KStandardGuiItem|"
-msgid "Administrator &Mode..."
+msgid "Administrator &Mode…"
 msgstr "Администраторски &режим..."
 
 #: kstandardguiitem.cpp:205
@@ -2573,8 +2589,11 @@ msgid "Go forward one step"
 msgstr "Иди корак напријед"
 
 #: kstandardguiitem.cpp:276
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Print..."
 msgctxt "KStandardGuiItem|"
-msgid "&Print..."
+msgid "&Print…"
 msgstr "&Штампај..."
 
 #: kstandardguiitem.cpp:278
@@ -2603,8 +2622,11 @@ msgid "Delete item(s)"
 msgstr "Обриши ставке"
 
 #: kstandardguiitem.cpp:299
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "&Open..."
 msgctxt "KStandardGuiItem|"
-msgid "&Open..."
+msgid "&Open…"
 msgstr "&Отвори..."
 
 #: kstandardguiitem.cpp:301
@@ -2638,8 +2660,11 @@ msgid "&Insert"
 msgstr "&Уметни"
 
 #: kstandardguiitem.cpp:325
+#, fuzzy
+#| msgctxt "KStandardGuiItem|"
+#| msgid "Confi&gure..."
 msgctxt "KStandardGuiItem|"
-msgid "Confi&gure..."
+msgid "Confi&gure…"
 msgstr "&Подеси..."
 
 #: kstandardguiitem.cpp:330
@@ -2708,6 +2733,13 @@ msgstr "Цио екран"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr "Развуци прозор преко целог екрана"
+
+#, fuzzy
+#~| msgctxt "KCharSelect|"
+#~| msgid "&Find..."
+#~ msgctxt "KCharSelect|@action"
+#~ msgid "&Find..."
+#~ msgstr "&Нађи..."
 
 #~ msgctxt "KFontChooser|@item font"
 #~ msgid "Bold Italic"
