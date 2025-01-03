@@ -2329,14 +2329,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "ښکته &خوځول"
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "غوښتل شوې ليکبڼه"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2344,7 +2344,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "لېوی"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2352,7 +2352,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "کوږ"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2360,7 +2360,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "رېونده"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2368,19 +2368,19 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "ډبل"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "چټک نسواري ګيدړ په لټ سپي ټوپ وهي"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2603,19 +2603,51 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "تېروتنه"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "بندول"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "استوزه بندول"
+
+#: kmessagewidget.cpp:288
+#, fuzzy
+#| msgid "Success"
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr "بری"
+
+#: kmessagewidget.cpp:291
+#, fuzzy
+#| msgid "Notes:"
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr ":يادښتونه"
+
+#: kmessagewidget.cpp:294
+#, fuzzy
+#| msgid "Warning"
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "خبرتيا"
+
+#: kmessagewidget.cpp:297
+#, fuzzy
+#| msgid "Error"
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "تېروتنه"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -3294,18 +3326,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "ځاېناستول"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr ""
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr ""
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"
@@ -9871,9 +9903,6 @@ msgstr ""
 
 #~ msgid "Enable component"
 #~ msgstr "رغتوکی توانول"
-
-#~ msgid "Success"
-#~ msgstr "بری"
 
 #~ msgid "Communication error"
 #~ msgstr "د اړيکې تېروتنه"

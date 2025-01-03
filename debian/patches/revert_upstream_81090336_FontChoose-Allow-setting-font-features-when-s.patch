@@ -10,8 +10,6 @@ This reverts commit 810903365c3dd25d1e6b859a9b853df298ed23a5.
  src/kfontchooserwidget.ui | 72 +++++++++++++++++----------------------
  2 files changed, 31 insertions(+), 110 deletions(-)
 
-diff --git a/src/kfontchooser.cpp b/src/kfontchooser.cpp
-index 7ff8a58c..7108f1b8 100644
 --- a/src/kfontchooser.cpp
 +++ b/src/kfontchooser.cpp
 @@ -24,7 +24,6 @@
@@ -39,18 +37,19 @@ index 7ff8a58c..7108f1b8 100644
  };
  
  KFontChooser::KFontChooser(QWidget *parent)
-@@ -149,10 +145,6 @@ KFontChooser::~KFontChooser() = default;
+@@ -163,11 +159,6 @@ void KFontChooserPrivate::init()
+     m_ui.reset(new Ui_KFontChooserWidget);
+     m_ui->setupUi(page);
  
- void KFontChooserPrivate::init()
- {
 -#if QT_VERSION < QT_VERSION_CHECK(6, 7, 0)
 -    m_ui->fontFeaturesLabel->setVisible(false);
 -    m_ui->fontFeaturesLineEdit->setVisible(false);
 -#endif
-     m_usingFixed = m_flags & KFontChooser::FixedFontsOnly;
- 
-     // The main layout is divided horizontally into a top part with
-@@ -239,16 +231,6 @@ void KFontChooserPrivate::init()
+-
+     // Increase spacing on top of the preview field and then reset the other layouts
+     // back to a standard value.
+     m_ui->sampleTextEditLayout->setSpacing(q->style()->pixelMetric(QStyle::PM_LayoutVerticalSpacing));
+@@ -241,16 +232,6 @@ void KFontChooserPrivate::init()
          slotSizeSelected(size);
      });
  
@@ -67,7 +66,7 @@ index 7ff8a58c..7108f1b8 100644
      if (isDiffMode) {
          m_ui->sizeLabel->hide();
          m_ui->sizeListWidget->setEnabled(false);
-@@ -619,41 +601,6 @@ void KFontChooserPrivate::slotSizeValue(double dval)
+@@ -621,41 +602,6 @@ void KFontChooserPrivate::slotSizeValue(
      m_signalsAllowed = true;
  }
  
@@ -109,7 +108,7 @@ index 7ff8a58c..7108f1b8 100644
  void KFontChooserPrivate::displaySample(const QFont &font)
  {
      m_ui->sampleTextEdit->setFont(font);
-@@ -746,22 +693,6 @@ void KFontChooserPrivate::setupDisplay()
+@@ -748,22 +694,6 @@ void KFontChooserPrivate::setupDisplay()
          size = QFontInfo(m_selectedFont).pointSizeF();
      }
  
@@ -132,8 +131,6 @@ index 7ff8a58c..7108f1b8 100644
      int numEntries;
      int i;
  
-diff --git a/src/kfontchooserwidget.ui b/src/kfontchooserwidget.ui
-index 554e4675..2a42b37a 100644
 --- a/src/kfontchooserwidget.ui
 +++ b/src/kfontchooserwidget.ui
 @@ -13,47 +13,6 @@
@@ -222,6 +219,3 @@ index 554e4675..2a42b37a 100644
      </layout>
     </item>
    </layout>
--- 
-2.45.2
-
