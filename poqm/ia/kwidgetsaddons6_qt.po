@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2024-09-02 15:38+0200\n"
+"PO-Revision-Date: 2024-10-10 12:21+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 22.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
@@ -1618,42 +1618,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Move a &basso "
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Font requirite"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normal"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Italic"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Oblique"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Grasse"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Bold Condensate Oblique"
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Le Vulpe Brun Salta Super Le Can Pigre"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1831,15 +1831,39 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Error"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Claude"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Claude message"
+
+#: kmessagewidget.cpp:288
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr "Successo"
+
+#: kmessagewidget.cpp:291
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "Nota"
+
+#: kmessagewidget.cpp:294
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "Aviso"
+
+#: kmessagewidget.cpp:297
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "Error"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -2374,18 +2398,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "S&uper scribe"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr "Le tempore que tu insertava  es invalide"
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr "Tempore non pote esser precedente de %1"
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"
@@ -10453,9 +10477,6 @@ msgstr "Monstra l;e fenestra in schermo integre"
 
 #~ msgid "Enable component"
 #~ msgstr "Habilitar le componente"
-
-#~ msgid "Success"
-#~ msgstr "Successo"
 
 #~ msgid "Communication error"
 #~ msgstr "Error de communication"

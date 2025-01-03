@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2024-08-24 12:11+0200\n"
+"PO-Revision-Date: 2024-10-12 10:27+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -1627,42 +1627,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Przesuń w &dół"
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Żądana czcionka"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Normalna"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Kursywa"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Pochylona"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Pogrubiona"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Pogrubiona ścieśniona pochylona "
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Pójdź, kińże tę chmurność w głąb flaszy"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1838,15 +1838,39 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Błąd"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "&Zamknij"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Zamknij powiadomienie"
+
+#: kmessagewidget.cpp:288
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr "Powodzenie"
+
+#: kmessagewidget.cpp:291
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "Uwaga"
+
+#: kmessagewidget.cpp:294
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: kmessagewidget.cpp:297
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "Błąd"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -2380,18 +2404,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "&Zastąp"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr "Podany czas jest nieprawidłowy"
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr "Czas nie może być wcześniejszy niż %1"
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"
@@ -10393,9 +10417,6 @@ msgstr "Wyświetl okno na pełnym ekranie"
 
 #~ msgid "Enable component"
 #~ msgstr "Włącz komponent"
-
-#~ msgid "Success"
-#~ msgstr "Sukces"
 
 #~ msgid "Communication error"
 #~ msgstr "Błąd komunikacji"

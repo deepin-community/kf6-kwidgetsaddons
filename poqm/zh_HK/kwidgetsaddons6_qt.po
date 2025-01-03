@@ -2186,14 +2186,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "要求的字型"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2201,14 +2201,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "普通的"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 #, fuzzy
 #| msgid "Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -2216,14 +2216,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "傾斜"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 #, fuzzy
 #| msgid "Bold"
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "粗體"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Book Oblique"
@@ -2231,14 +2231,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "傾斜書體"
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox 跳過那隻懶狗"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, fuzzy, qt-format
 #| msgid "%1%"
 msgctxt "KFontChooser|@item Font style"
@@ -2467,19 +2467,49 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "錯誤"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 #, fuzzy
 #| msgid "&Close"
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 #, fuzzy
 #| msgid "Close Message"
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "關閉訊息"
+
+#: kmessagewidget.cpp:288
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr ""
+
+#: kmessagewidget.cpp:291
+#, fuzzy
+#| msgid "Note"
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "註解"
+
+#: kmessagewidget.cpp:294
+#, fuzzy
+#| msgid "Warning"
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "警告"
+
+#: kmessagewidget.cpp:297
+#, fuzzy
+#| msgid "Error"
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "錯誤"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -3177,18 +3207,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "覆寫(&O)"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr ""
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr ""
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"

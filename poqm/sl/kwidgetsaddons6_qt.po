@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-23 01:50+0000\n"
-"PO-Revision-Date: 2024-08-23 06:35+0200\n"
+"PO-Revision-Date: 2024-10-11 20:18+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
 "%100<=4 ? 2 : 3);\n"
 "Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-Qt-Contexts: true\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
@@ -1631,42 +1631,42 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Premakni navz&dol"
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Zahtevana pisava"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Običajno"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Ležeče"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Nagnjeno"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Krepko"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr "Krepko strnjeno nagnjeno"
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Šerif bo za vajo spet skuhal domače žgance"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1842,15 +1842,39 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "Napaka"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "Zapri"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Zapri sporočilo"
+
+#: kmessagewidget.cpp:288
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr "Uspeh"
+
+#: kmessagewidget.cpp:291
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "Opomba"
+
+#: kmessagewidget.cpp:294
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "Opozorilo"
+
+#: kmessagewidget.cpp:297
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "Napaka"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -2382,18 +2406,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "Prepiši"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr "Čas, ki ste ga vnesli, ni veljaven"
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr "Čas ne more biti zgodnejši kot %1"
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"
@@ -10460,9 +10484,6 @@ msgstr "Pokaži okno v celozaslonskem načinu"
 
 #~ msgid "Enable component"
 #~ msgstr "Omogoči sestavni del"
-
-#~ msgid "Success"
-#~ msgstr "Uspeh"
 
 #~ msgid "Communication error"
 #~ msgstr "Napaka sporazumevanja"

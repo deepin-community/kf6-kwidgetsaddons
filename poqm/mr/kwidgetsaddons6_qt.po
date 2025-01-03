@@ -1842,7 +1842,7 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "खाली हलवा (&D)"
 
-#: kfontchooser.cpp:164
+#: kfontchooser.cpp:160
 #, fuzzy
 #| msgctxt "KFontChooser|"
 #| msgid "Requested Font"
@@ -1850,7 +1850,7 @@ msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "विनंतीकृत फॉन्ट"
 
-#: kfontchooser.cpp:211
+#: kfontchooser.cpp:213
 #, fuzzy
 #| msgctxt "KFontChooser|QFontDatabase"
 #| msgid "Normal"
@@ -1858,32 +1858,32 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "सामान्य"
 
-#: kfontchooser.cpp:212 kfontchooser.cpp:472
+#: kfontchooser.cpp:214 kfontchooser.cpp:474
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "तिरपे"
 
-#: kfontchooser.cpp:213 kfontchooser.cpp:473
+#: kfontchooser.cpp:215 kfontchooser.cpp:475
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "तिरपा"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:216
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "ठळक"
 
-#: kfontchooser.cpp:215
+#: kfontchooser.cpp:217
 msgctxt "KFontChooser|@item font"
 msgid "Bold Condensed Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:269
+#: kfontchooser.cpp:271
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
 
-#: kfontchooser.cpp:457
+#: kfontchooser.cpp:459
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -2124,7 +2124,7 @@ msgctxt "KMessageDialog|"
 msgid "Error"
 msgstr "त्रुटी"
 
-#: kmessagewidget.cpp:81
+#: kmessagewidget.cpp:84
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "&Close"
@@ -2132,13 +2132,46 @@ msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "बंद करा (&C)"
 
-#: kmessagewidget.cpp:82
+#: kmessagewidget.cpp:85
 #, fuzzy
 #| msgctxt "KMessageWidget|"
 #| msgid "Close message"
 msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "संदेश बंद करा"
+
+#: kmessagewidget.cpp:288
+#, fuzzy
+#| msgid "Success"
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
+msgid "Success"
+msgstr "सफलता"
+
+#: kmessagewidget.cpp:291
+#, fuzzy
+#| msgctxt "KCharSelect|"
+#| msgid "Notes:"
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "टिप :"
+
+#: kmessagewidget.cpp:294
+#, fuzzy
+#| msgid "Warning"
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "इशारा"
+
+#: kmessagewidget.cpp:297
+#, fuzzy
+#| msgid "Error"
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "त्रुटी"
 
 #: kmimetypechooser.cpp:88
 msgctxt "KMimeTypeChooser|@info:placeholder"
@@ -2781,18 +2814,18 @@ msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "खोडून लिहा (&O)"
 
-#: ktimecombobox.cpp:254
+#: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"
 msgid "The time you entered is invalid"
 msgstr "तुम्ही दिलेली वेळ चुकीची आहे"
 
-#: ktimecombobox.cpp:257
+#: ktimecombobox.cpp:246
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be earlier than %1"
 msgstr "वेळ %1 च्या आधी असू शकत नाही"
 
-#: ktimecombobox.cpp:264
+#: ktimecombobox.cpp:253
 #, qt-format
 msgctxt "KTimeComboBox|@info"
 msgid "Time cannot be later than %1"
@@ -10130,9 +10163,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 
 #~ msgid "Enable component"
 #~ msgstr "घटक कार्यान्वित करा"
-
-#~ msgid "Success"
-#~ msgstr "सफलता"
 
 #~ msgid "Communication error"
 #~ msgstr "संचारण त्रुटी"
